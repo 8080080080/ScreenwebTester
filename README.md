@@ -80,12 +80,48 @@ If `OPENAI_API_KEY` is missing, the `/app` workflow still works end to end:
 
 ## Deployment
 
-SnapLayout is prepared for Vercel:
+SnapLayout supports two production deployment targets:
+
+### Vercel
 
 1. Push the project to a Git repository.
 2. Import it into Vercel as a Next.js project.
 3. Add environment variables from `.env.example`.
 4. Deploy with the default Node runtime.
+
+### Cloudflare Workers
+
+This app is a full-stack Next.js application with App Router SSR and an API route, so the supported Cloudflare path is Workers via OpenNext.
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Build the Worker bundle:
+
+   ```bash
+   npm run build:cloudflare
+   ```
+
+3. Authenticate Wrangler:
+
+   ```bash
+   npx wrangler login
+   ```
+
+4. Deploy:
+
+   ```bash
+   npm run deploy:cloudflare
+   ```
+
+Cloudflare notes:
+
+- use Cloudflare Workers or Workers Builds for this repo, not the Pages Next.js preset
+- this repo now ships a stateless `open-next.config.ts` and `wrangler.jsonc`, so it does not require the `WORKER_SELF_REFERENCE` service binding
+- if you previously added a Pages service binding named `WORKER_SELF_REFERENCE`, remove it from the Cloudflare dashboard before redeploying
 
 Deployment assumptions:
 
