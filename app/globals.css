@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #f5efe8;
+  --color-foreground: #191410;
+  --color-muted: #6b5d51;
+  --color-line: #d8cbc1;
+  --color-accent: #b45309;
+  --color-accent-foreground: #fffbf5;
+  --color-secondary-surface: #221d19;
+  --color-secondary-foreground: #f8f3ed;
+}
+
+:root {
+  --canvas: #f5efe8;
+  --foreground: #191410;
+  --muted: #6b5d51;
+  --line: #d8cbc1;
+  --accent: #b45309;
+  --accent-foreground: #fffbf5;
+  --secondary-surface: #221d19;
+  --secondary-foreground: #f8f3ed;
+}
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.16), transparent 26%),
+    radial-gradient(circle at left center, rgba(120, 113, 108, 0.08), transparent 28%),
+    var(--canvas);
+  color: var(--foreground);
+}
+
+::selection {
+  background: rgba(180, 83, 9, 0.18);
+}
+
+.page-shell {
+  position: relative;
+}
+
+.page-shell::before {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.36) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.36) 1px, transparent 1px);
+  background-size: 96px 96px;
+  content: "";
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent 88%);
+  opacity: 0.35;
+}
+
+.surface {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(18px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
