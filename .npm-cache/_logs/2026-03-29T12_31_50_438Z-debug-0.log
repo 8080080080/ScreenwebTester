@@ -5,16 +5,16 @@
 4 silly config load:file:D:\CODEX\ScreenWeb\.npmrc
 5 silly config load:file:C:\Users\plp\.npmrc
 6 silly config load:file:C:\Users\plp\AppData\Roaming\npm\etc\npmrc
-7 verbose title npm view @emnapi/runtime@1.7.1
-8 verbose argv "view" "@emnapi/runtime@1.7.1" "--json" "--cache" ".npm-cache"
-9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_39_13_960Z-
-10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_39_13_960Z-debug-0.log
-11 silly logfile start cleaning logs, removing 5 files
+7 verbose title npm view @emnapi/runtime@1.4.3
+8 verbose argv "view" "@emnapi/runtime@1.4.3" "--json" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_31_50_438Z-
+10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_31_50_438Z-debug-0.log
+11 silly logfile start cleaning logs, removing 4 files
 12 silly logfile done cleaning log files
-13 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 201ms (cache revalidated)
+13 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 213ms (cache revalidated)
 14 silly view {
-14 silly view   '1.7.1': {
-14 silly view     _id: '@emnapi/runtime@1.7.1',
+14 silly view   '1.4.3': {
+14 silly view     _id: '@emnapi/runtime@1.4.3',
 14 silly view     _rev: '46-8eb442d84416bad6ae2d0e7802215799',
 14 silly view     name: '@emnapi/runtime',
 14 silly view     'dist-tags': { latest: '1.9.1' },
@@ -92,15 +92,14 @@
 14 silly view     maintainers: [ [Object] ],
 14 silly view     readmeFilename: 'README.md',
 14 silly view     _contentLength: 103787,
-14 silly view     version: '1.7.1',
+14 silly view     version: '1.4.3',
 14 silly view     dist: {
-14 silly view       shasum: 'a73784e23f5d57287369c808197288b52276b791',
-14 silly view       tarball: 'https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.7.1.tgz',
+14 silly view       shasum: 'c0564665c80dc81c448adac23f9dfbed6c838f7d',
+14 silly view       tarball: 'https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.4.3.tgz',
 14 silly view       fileCount: 17,
-14 silly view       integrity: 'sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA==',
+14 silly view       integrity: 'sha512-pBPWdu6MLKROBX05wSNKcNb++m5Er+KQ9QkB+WVM+pW2Kx9hoSrVTnu3BdkI5eBLZoKu/J6mW/B6i6bJB2ytXQ==',
 14 silly view       signatures: [Array],
-14 silly view       attestations: [Object],
-14 silly view       unpackedSize: 423936
+14 silly view       unpackedSize: 423565
 14 silly view     },
 14 silly view     main: 'index.js',
 14 silly view     types: './dist/emnapi.d.ts',
@@ -110,22 +109,18 @@
 14 silly view       './dist/emnapi.cjs.min': [Object],
 14 silly view       './dist/emnapi.min.mjs': [Object]
 14 silly view     },
-14 silly view     gitHead: 'f40577ad6013236e46bef57d829ece20773997bb',
+14 silly view     gitHead: '90c4c1b1358851d401dd162c5d1925a2dcb2e397',
 14 silly view     scripts: { build: 'node ./script/build.js' },
-14 silly view     _npmUser: {
-14 silly view       name: 'GitHub Actions',
-14 silly view       email: 'npm-oidc-no-reply@github.com',
-14 silly view       trustedPublisher: [Object]
-14 silly view     },
-14 silly view     _npmVersion: '11.6.2',
+14 silly view     _npmUser: { name: 'toyobayashi', email: 'lifenglin314@outlook.com' },
+14 silly view     _npmVersion: '10.1.0',
 14 silly view     directories: {},
 14 silly view     sideEffects: false,
-14 silly view     _nodeVersion: '22.16.0',
+14 silly view     _nodeVersion: '20.9.0',
 14 silly view     dependencies: { tslib: '^2.4.0' },
 14 silly view     publishConfig: { access: 'public' },
 14 silly view     _hasShrinkwrap: false,
 14 silly view     _npmOperationalInternal: {
-14 silly view       tmp: 'tmp/runtime_1.7.1_1763101986661_0.3381076178648199',
+14 silly view       tmp: 'tmp/runtime_1.4.3_1744733893067_0.39742741811393456',
 14 silly view       host: 's3://npm-registry-packages-npm-production'
 14 silly view     }
 14 silly view   }

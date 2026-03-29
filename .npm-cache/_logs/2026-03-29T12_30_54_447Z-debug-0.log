@@ -1,0 +1,65 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\CODEX\ScreenWeb\.npmrc
+5 silly config load:file:C:\Users\plp\.npmrc
+6 silly config load:file:C:\Users\plp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--ignore-scripts" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_30_54_447Z-
+10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_30_54_447Z-debug-0.log
+11 silly logfile start cleaning logs, removing 3 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile error removing log file D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_35_56_927Z-debug-0.log [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_35_56_927Z-debug-0.log'] {
+13 silly logfile   errno: -4048,
+13 silly logfile   code: 'EPERM',
+13 silly logfile   syscall: 'unlink',
+13 silly logfile   path: 'D:\\CODEX\\ScreenWeb\\.npm-cache\\_logs\\2026-03-28T19_35_56_927Z-debug-0.log'
+13 silly logfile }
+14 silly idealTree buildDeps
+15 silly fetch manifest @emnapi/core@^1.4.3
+16 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
+17 silly logfile error removing log file D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_36_13_195Z-debug-0.log [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_36_13_195Z-debug-0.log'] {
+17 silly logfile   errno: -4048,
+17 silly logfile   code: 'EPERM',
+17 silly logfile   syscall: 'unlink',
+17 silly logfile   path: 'D:\\CODEX\\ScreenWeb\\.npm-cache\\_logs\\2026-03-28T19_36_13_195Z-debug-0.log'
+17 silly logfile }
+18 silly logfile error removing log file D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_36_37_589Z-debug-0.log [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_36_37_589Z-debug-0.log'] {
+18 silly logfile   errno: -4048,
+18 silly logfile   code: 'EPERM',
+18 silly logfile   syscall: 'unlink',
+18 silly logfile   path: 'D:\\CODEX\\ScreenWeb\\.npm-cache\\_logs\\2026-03-28T19_36_37_589Z-debug-0.log'
+18 silly logfile }
+19 silly logfile done cleaning log files
+20 silly fetch manifest @emnapi/runtime@^1.4.3
+21 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+22 silly placeDep node_modules/@napi-rs/wasm-runtime @emnapi/core@ REPLACE for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
+23 silly placeDep node_modules/@napi-rs/wasm-runtime @emnapi/runtime@ REPLACE for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
+24 verbose stack Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\node_modules\.package-lock.json'
+25 error code EPERM
+26 error syscall unlink
+27 error path D:\CODEX\ScreenWeb\node_modules\.package-lock.json
+28 error errno -4048
+29 error [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\node_modules\.package-lock.json'] {
+29 error   errno: -4048,
+29 error   code: 'EPERM',
+29 error   syscall: 'unlink',
+29 error   path: 'D:\\CODEX\\ScreenWeb\\node_modules\\.package-lock.json'
+29 error }
+30 error
+30 error The operation was rejected by your operating system.
+30 error It's possible that the file was already in use (by a text editor or antivirus),
+30 error or that you lack permissions to access it.
+30 error
+30 error If you believe this might be a permissions issue, please double-check the
+30 error permissions of the file and its containing directories, or try running
+30 error the command again as root/Administrator.
+31 verbose cwd D:\CODEX\ScreenWeb
+32 verbose os Windows_NT 10.0.26200
+33 verbose node v25.2.1
+34 verbose npm  v11.6.2
+35 verbose exit -4048
+36 verbose code -4048
+37 error A complete log of this run can be found in: D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_30_54_447Z-debug-0.log

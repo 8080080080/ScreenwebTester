@@ -1,0 +1,92 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\CODEX\ScreenWeb\.npmrc
+5 silly config load:file:C:\Users\plp\.npmrc
+6 silly config load:file:C:\Users\plp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view @emnapi/wasi-threads@1.0.2
+8 verbose argv "view" "@emnapi/wasi-threads@1.0.2" "--json" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_31_57_852Z-
+10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_31_57_852Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fwasi-threads 161ms (cache revalidated)
+14 silly view {
+14 silly view   '1.0.2': {
+14 silly view     _id: '@emnapi/wasi-threads@1.0.2',
+14 silly view     _rev: '7-83a3bab58af6e9ce8ae73893012fce4e',
+14 silly view     name: '@emnapi/wasi-threads',
+14 silly view     'dist-tags': { latest: '1.2.0' },
+14 silly view     versions: [
+14 silly view       '1.0.0', '1.0.1',
+14 silly view       '1.0.2', '1.0.3',
+14 silly view       '1.0.4', '1.1.0',
+14 silly view       '1.2.0'
+14 silly view     ],
+14 silly view     time: {
+14 silly view       created: '2024-05-19T06:29:20.038Z',
+14 silly view       modified: '2026-03-12T08:47:55.546Z',
+14 silly view       '1.0.0': '2024-05-19T06:29:20.305Z',
+14 silly view       '1.0.1': '2024-05-19T08:17:47.304Z',
+14 silly view       '1.0.2': '2025-04-15T16:07:03.666Z',
+14 silly view       '1.0.3': '2025-07-07T14:33:43.222Z',
+14 silly view       '1.0.4': '2025-07-18T08:41:13.577Z',
+14 silly view       '1.1.0': '2025-08-28T09:32:28.975Z',
+14 silly view       '1.2.0': '2026-03-12T08:47:55.227Z'
+14 silly view     },
+14 silly view     bugs: { url: 'https://github.com/toyobayashi/emnapi/issues' },
+14 silly view     author: { name: 'toyobayashi' },
+14 silly view     license: 'MIT',
+14 silly view     homepage: 'https://github.com/toyobayashi/emnapi#readme',
+14 silly view     repository: {
+14 silly view       url: 'git+https://github.com/toyobayashi/emnapi.git',
+14 silly view       type: 'git'
+14 silly view     },
+14 silly view     description: 'WASI threads proposal implementation in JavaScript',
+14 silly view     maintainers: [ [Object] ],
+14 silly view     readmeFilename: 'README.md',
+14 silly view     _contentLength: 21830,
+14 silly view     version: '1.0.2',
+14 silly view     dist: {
+14 silly view       shasum: '977f44f844eac7d6c138a415a123818c655f874c',
+14 silly view       tarball: 'https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.0.2.tgz',
+14 silly view       fileCount: 15,
+14 silly view       integrity: 'sha512-5n3nTJblwRi8LlXkJ9eBzu+kZR8Yxcc7ubakyQTFzPMtIhFpUBRbsnc2Dv88IZDIbCDlBiWrknhB4Lsz7mg6BA==',
+14 silly view       signatures: [Array],
+14 silly view       unpackedSize: 219364
+14 silly view     },
+14 silly view     main: 'index.js',
+14 silly view     types: './dist/wasi-threads.d.ts',
+14 silly view     module: './dist/wasi-threads.esm-bundler.js',
+14 silly view     exports: {
+14 silly view       '.': [Object],
+14 silly view       './dist/wasi-threads.cjs.min': [Object],
+14 silly view       './dist/wasi-threads.min.mjs': [Object]
+14 silly view     },
+14 silly view     gitHead: '90c4c1b1358851d401dd162c5d1925a2dcb2e397',
+14 silly view     scripts: {
+14 silly view       test: 'node ./test/index.js',
+14 silly view       build: 'node ./script/build.js',
+14 silly view       'build:test': 'node ./test/build.js'
+14 silly view     },
+14 silly view     _npmUser: { name: 'toyobayashi', email: 'lifenglin314@outlook.com' },
+14 silly view     _npmVersion: '10.1.0',
+14 silly view     directories: {},
+14 silly view     sideEffects: false,
+14 silly view     _nodeVersion: '20.9.0',
+14 silly view     dependencies: { tslib: '^2.4.0' },
+14 silly view     publishConfig: { access: 'public' },
+14 silly view     _hasShrinkwrap: false,
+14 silly view     _npmOperationalInternal: {
+14 silly view       tmp: 'tmp/wasi-threads_1.0.2_1744733223477_0.9346622564921898',
+14 silly view       host: 's3://npm-registry-packages-npm-production'
+14 silly view     }
+14 silly view   }
+14 silly view }
+15 verbose cwd D:\CODEX\ScreenWeb
+16 verbose os Windows_NT 10.0.26200
+17 verbose node v25.2.1
+18 verbose npm  v11.6.2
+19 verbose exit 0
+20 info ok

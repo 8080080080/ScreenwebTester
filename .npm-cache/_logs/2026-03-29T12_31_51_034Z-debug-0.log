@@ -1,0 +1,133 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\CODEX\ScreenWeb\.npmrc
+5 silly config load:file:C:\Users\plp\.npmrc
+6 silly config load:file:C:\Users\plp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view @emnapi/core@1.4.3
+8 verbose argv "view" "@emnapi/core@1.4.3" "--json" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_31_51_034Z-
+10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-29T12_31_51_034Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fcore 183ms (cache revalidated)
+14 silly view {
+14 silly view   '1.4.3': {
+14 silly view     _id: '@emnapi/core@1.4.3',
+14 silly view     _rev: '47-da80185e20d107cf097e1d5e26442b22',
+14 silly view     name: '@emnapi/core',
+14 silly view     'dist-tags': { latest: '1.9.1' },
+14 silly view     versions: [
+14 silly view       '0.31.0', '0.32.2', '0.33.0', '0.33.1',
+14 silly view       '0.34.0', '0.35.0', '0.36.0', '0.36.1',
+14 silly view       '0.36.2', '0.36.3', '0.37.0', '0.38.0',
+14 silly view       '0.38.1', '0.38.2', '0.38.3', '0.39.0',
+14 silly view       '0.40.0', '0.41.0', '0.42.0', '0.43.0',
+14 silly view       '0.43.1', '0.44.0', '0.45.0', '1.0.0',
+14 silly view       '1.1.0',  '1.1.1',  '1.2.0',  '1.3.0',
+14 silly view       '1.3.1',  '1.4.0',  '1.4.1',  '1.4.2',
+14 silly view       '1.4.3',  '1.4.4',  '1.4.5',  '1.5.0',
+14 silly view       '1.6.0',  '1.7.0',  '1.7.1',  '1.8.0',
+14 silly view       '1.8.1',  '1.9.0',  '1.9.1'
+14 silly view     ],
+14 silly view     time: {
+14 silly view       created: '2023-02-14T07:41:45.725Z',
+14 silly view       modified: '2026-03-19T13:48:34.750Z',
+14 silly view       '0.31.0': '2023-02-14T07:41:46.042Z',
+14 silly view       '0.32.0': '2023-02-25T17:55:36.941Z',
+14 silly view       '0.32.1': '2023-02-25T18:26:04.175Z',
+14 silly view       '0.32.2': '2023-02-25T18:49:14.152Z',
+14 silly view       '0.33.0': '2023-03-09T13:42:02.877Z',
+14 silly view       '0.33.1': '2023-03-09T15:33:21.095Z',
+14 silly view       '0.34.0': '2023-03-16T06:27:36.237Z',
+14 silly view       '0.35.0': '2023-03-23T09:49:24.343Z',
+14 silly view       '0.36.0': '2023-03-30T08:58:19.972Z',
+14 silly view       '0.36.1': '2023-03-31T09:27:48.022Z',
+14 silly view       '0.36.2': '2023-03-31T17:06:33.966Z',
+14 silly view       '0.36.3': '2023-04-04T05:40:51.422Z',
+14 silly view       '0.37.0': '2023-04-16T11:07:21.815Z',
+14 silly view       '0.38.0': '2023-04-21T16:39:35.613Z',
+14 silly view       '0.38.1': '2023-04-24T16:19:17.953Z',
+14 silly view       '0.38.2': '2023-04-24T16:43:15.903Z',
+14 silly view       '0.38.3': '2023-05-06T02:03:18.904Z',
+14 silly view       '0.39.0': '2023-06-05T12:47:13.331Z',
+14 silly view       '0.40.0': '2023-06-17T10:00:11.308Z',
+14 silly view       '0.41.0': '2023-06-24T12:44:26.186Z',
+14 silly view       '0.42.0': '2023-09-16T03:08:46.780Z',
+14 silly view       '0.43.0': '2023-10-20T14:26:56.264Z',
+14 silly view       '0.43.1': '2023-10-21T16:55:37.225Z',
+14 silly view       '0.44.0': '2023-11-12T07:59:07.599Z',
+14 silly view       '0.45.0': '2023-12-29T12:45:19.619Z',
+14 silly view       '1.0.0': '2024-01-29T16:54:38.179Z',
+14 silly view       '1.1.0': '2024-03-20T10:08:43.366Z',
+14 silly view       '1.1.1': '2024-03-29T16:48:35.313Z',
+14 silly view       '1.2.0': '2024-05-19T08:50:58.596Z',
+14 silly view       '1.3.0': '2024-10-04T08:46:09.126Z',
+14 silly view       '1.3.1': '2024-10-12T08:31:44.654Z',
+14 silly view       '1.4.0': '2025-03-28T15:49:29.457Z',
+14 silly view       '1.4.1': '2025-04-12T03:41:54.916Z',
+14 silly view       '1.4.2': '2025-04-15T15:48:58.018Z',
+14 silly view       '1.4.3': '2025-04-15T16:18:19.491Z',
+14 silly view       '1.4.4': '2025-07-07T14:46:36.005Z',
+14 silly view       '1.4.5': '2025-07-18T08:51:40.620Z',
+14 silly view       '1.5.0': '2025-08-29T03:20:13.858Z',
+14 silly view       '1.6.0': '2025-10-21T02:14:22.047Z',
+14 silly view       '1.7.0': '2025-11-03T09:13:40.257Z',
+14 silly view       '1.7.1': '2025-11-14T06:33:16.879Z',
+14 silly view       '1.8.0': '2026-01-03T13:14:04.351Z',
+14 silly view       '1.8.1': '2026-01-04T10:27:09.800Z',
+14 silly view       '1.9.0': '2026-03-12T09:30:14.616Z',
+14 silly view       '1.9.1': '2026-03-19T13:48:34.501Z'
+14 silly view     },
+14 silly view     bugs: { url: 'https://github.com/toyobayashi/emnapi/issues' },
+14 silly view     author: { name: 'toyobayashi' },
+14 silly view     license: 'MIT',
+14 silly view     homepage: 'https://github.com/toyobayashi/emnapi#readme',
+14 silly view     repository: {
+14 silly view       url: 'git+https://github.com/toyobayashi/emnapi.git',
+14 silly view       type: 'git'
+14 silly view     },
+14 silly view     description: 'emnapi core',
+14 silly view     maintainers: [ [Object] ],
+14 silly view     readmeFilename: 'README.md',
+14 silly view     _contentLength: 101347,
+14 silly view     version: '1.4.3',
+14 silly view     dist: {
+14 silly view       shasum: '9ac52d2d5aea958f67e52c40a065f51de59b77d6',
+14 silly view       tarball: 'https://registry.npmjs.org/@emnapi/core/-/core-1.4.3.tgz',
+14 silly view       fileCount: 15,
+14 silly view       integrity: 'sha512-4m62DuCE07lw01soJwPiBGC0nAww0Q+RY70VZ+n49yDIO13yyinhbWCeNnaob0lakDtWQzSdtNWzJeOJt2ma+g==',
+14 silly view       signatures: [Array],
+14 silly view       unpackedSize: 1777695
+14 silly view     },
+14 silly view     main: 'index.js',
+14 silly view     types: './dist/emnapi-core.d.ts',
+14 silly view     module: './dist/emnapi-core.esm-bundler.js',
+14 silly view     exports: {
+14 silly view       '.': [Object],
+14 silly view       './dist/emnapi-core.cjs.min': [Object],
+14 silly view       './dist/emnapi-core.min.mjs': [Object]
+14 silly view     },
+14 silly view     gitHead: '90c4c1b1358851d401dd162c5d1925a2dcb2e397',
+14 silly view     scripts: { build: 'node ./script/build.js' },
+14 silly view     _npmUser: { name: 'toyobayashi', email: 'lifenglin314@outlook.com' },
+14 silly view     _npmVersion: '10.1.0',
+14 silly view     directories: {},
+14 silly view     sideEffects: false,
+14 silly view     _nodeVersion: '20.9.0',
+14 silly view     dependencies: { tslib: '^2.4.0', '@emnapi/wasi-threads': '1.0.2' },
+14 silly view     publishConfig: { access: 'public' },
+14 silly view     _hasShrinkwrap: false,
+14 silly view     _npmOperationalInternal: {
+14 silly view       tmp: 'tmp/core_1.4.3_1744733899240_0.7152580425575261',
+14 silly view       host: 's3://npm-registry-packages-npm-production'
+14 silly view     }
+14 silly view   }
+14 silly view }
+15 verbose cwd D:\CODEX\ScreenWeb
+16 verbose os Windows_NT 10.0.26200
+17 verbose node v25.2.1
+18 verbose npm  v11.6.2
+19 verbose exit 0
+20 info ok
