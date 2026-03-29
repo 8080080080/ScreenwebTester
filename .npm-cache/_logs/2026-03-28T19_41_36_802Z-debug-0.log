@@ -2,38 +2,36 @@
 1 info using npm@11.6.2
 2 info using node@v25.2.1
 3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
-4 silly config load:file:D:\CODEX\ScreenWeb\.npmrc
+4 silly config load:file:D:\CODEX\ScreenWeb\.ci-verify\.npmrc
 5 silly config load:file:C:\Users\plp\.npmrc
 6 silly config load:file:C:\Users\plp\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm ci
-8 verbose argv "ci" "--cache" ".npm-cache"
-9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T18_08_08_560Z-
-10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T18_08_08_560Z-debug-0.log
+8 verbose argv "ci" "--cache" "..\\.npm-cache"
+9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_41_36_802Z-
+10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_41_36_802Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
-13 silly logfile error removing log file D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T18_05_18_321Z-debug-0.log [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T18_05_18_321Z-debug-0.log'] {
+13 silly logfile error removing log file D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_00_32_513Z-debug-0.log [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_00_32_513Z-debug-0.log'] {
 13 silly logfile   errno: -4048,
 13 silly logfile   code: 'EPERM',
 13 silly logfile   syscall: 'unlink',
-13 silly logfile   path: 'D:\\CODEX\\ScreenWeb\\.npm-cache\\_logs\\2026-03-28T18_05_18_321Z-debug-0.log'
+13 silly logfile   path: 'D:\\CODEX\\ScreenWeb\\.npm-cache\\_logs\\2026-03-28T19_00_32_513Z-debug-0.log'
 13 silly logfile }
 14 silly logfile done cleaning log files
 15 silly idealTree buildDeps
-16 silly fetch manifest @emnapi/runtime@^1.7.0
-17 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
-18 silly placeDep node_modules/@img/sharp-wasm32 @emnapi/runtime@ OK for: @img/sharp-wasm32@0.34.5 want: ^1.7.0
-19 silly fetch manifest @emnapi/core@^1.4.3
-20 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
-21 silly fetch manifest @emnapi/runtime@^1.4.3
-22 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
-23 silly placeDep node_modules/@napi-rs/wasm-runtime @emnapi/core@ OK for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
-24 silly placeDep node_modules/@napi-rs/wasm-runtime @emnapi/runtime@ OK for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
+16 silly fetch manifest @emnapi/core@^1.4.3
+17 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
+18 silly fetch manifest @emnapi/runtime@^1.4.3
+19 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+20 silly placeDep node_modules/@napi-rs/wasm-runtime @emnapi/core@ REPLACE for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
+21 silly placeDep node_modules/@napi-rs/wasm-runtime @emnapi/runtime@ REPLACE for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
+22 silly fetch manifest @emnapi/wasi-threads@1.1.0
+23 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fwasi-threads cache-miss
+24 silly placeDep node_modules/@rolldown/binding-wasm32-wasi/node_modules/@emnapi/core @emnapi/wasi-threads@ OK for: @emnapi/core@1.7.1 want: 1.1.0
 25 verbose stack Error: 
 25 verbose stack `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
 25 verbose stack
-25 verbose stack Missing: @emnapi/runtime@ from lock file
-25 verbose stack Missing: @emnapi/core@ from lock file
-25 verbose stack Missing: @emnapi/runtime@ from lock file
+25 verbose stack Missing: @emnapi/wasi-threads@ from lock file
 25 verbose stack
 25 verbose stack Clean install a project
 25 verbose stack
@@ -60,9 +58,7 @@
 27 error
 27 error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
 27 error
-27 error Missing: @emnapi/runtime@ from lock file
-27 error Missing: @emnapi/core@ from lock file
-27 error Missing: @emnapi/runtime@ from lock file
+27 error Missing: @emnapi/wasi-threads@ from lock file
 27 error
 27 error Clean install a project
 27 error
@@ -81,10 +77,10 @@
 27 error aliases: clean-install, ic, install-clean, isntall-clean
 27 error
 27 error Run "npm help ci" for more info
-28 verbose cwd D:\CODEX\ScreenWeb
+28 verbose cwd D:\CODEX\ScreenWeb\.ci-verify
 29 verbose os Windows_NT 10.0.26200
 30 verbose node v25.2.1
 31 verbose npm  v11.6.2
 32 verbose exit 1
 33 verbose code 1
-34 error A complete log of this run can be found in: D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T18_08_08_560Z-debug-0.log
+34 error A complete log of this run can be found in: D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_41_36_802Z-debug-0.log

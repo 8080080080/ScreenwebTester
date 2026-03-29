@@ -1,0 +1,2003 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\.npmrc
+5 silly config load:file:C:\Users\plp\.npmrc
+6 silly config load:file:C:\Users\plp\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--cache" "..\\.npm-cache"
+9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_42_18_578Z-
+10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_42_18_578Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile error removing log file D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_35_56_927Z-debug-0.log [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_35_56_927Z-debug-0.log'] {
+13 silly logfile   errno: -4048,
+13 silly logfile   code: 'EPERM',
+13 silly logfile   syscall: 'unlink',
+13 silly logfile   path: 'D:\\CODEX\\ScreenWeb\\.npm-cache\\_logs\\2026-03-28T19_35_56_927Z-debug-0.log'
+13 silly logfile }
+14 silly logfile done cleaning log files
+15 silly idealTree buildDeps
+16 silly fetch manifest @emnapi/core@^1.4.3
+17 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fcore cache-miss
+18 silly fetch manifest @emnapi/runtime@^1.4.3
+19 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+20 silly placeDep node_modules/@napi-rs/wasm-runtime @emnapi/core@ REPLACE for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
+21 silly placeDep node_modules/@napi-rs/wasm-runtime @emnapi/runtime@ REPLACE for: @napi-rs/wasm-runtime@0.2.12 want: ^1.4.3
+22 silly reify moves {}
+23 silly audit report null
+24 http cache zod-validation-error@https://registry.npmjs.org/zod-validation-error/-/zod-validation-error-4.0.2.tgz 1ms (cache hit)
+25 http cache youch-core@https://registry.npmjs.org/youch-core/-/youch-core-0.3.3.tgz 0ms (cache hit)
+26 http cache zod@https://registry.npmjs.org/zod/-/zod-4.3.6.tgz 0ms (cache hit)
+27 http cache youch@https://registry.npmjs.org/youch/-/youch-4.1.0-beta.10.tgz 0ms (cache hit)
+28 http cache yocto-queue@https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz 0ms (cache hit)
+29 http cache yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz 0ms (cache hit)
+30 http cache yargs@https://registry.npmjs.org/yargs/-/yargs-18.0.0.tgz 0ms (cache hit)
+31 http cache yaml@https://registry.npmjs.org/yaml/-/yaml-2.8.3.tgz 0ms (cache hit)
+32 http cache yallist@https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz 0ms (cache hit)
+33 http cache y18n@https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz 0ms (cache hit)
+34 http cache xml-name-validator@https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-5.0.0.tgz 0ms (cache hit)
+35 http cache xmlchars@https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz 0ms (cache hit)
+36 http cache wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+37 http cache ws@https://registry.npmjs.org/ws/-/ws-8.18.0.tgz 0ms (cache hit)
+38 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz 0ms (cache hit)
+39 http cache wrangler@https://registry.npmjs.org/wrangler/-/wrangler-4.78.0.tgz 0ms (cache hit)
+40 http cache workerd@https://registry.npmjs.org/workerd/-/workerd-1.20260317.1.tgz 0ms (cache hit)
+41 http cache word-wrap@https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.5.tgz 0ms (cache hit)
+42 http cache which-typed-array@https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.20.tgz 0ms (cache hit)
+43 http cache why-is-node-running@https://registry.npmjs.org/why-is-node-running/-/why-is-node-running-2.3.0.tgz 0ms (cache hit)
+44 http cache which-collection@https://registry.npmjs.org/which-collection/-/which-collection-1.0.2.tgz 0ms (cache hit)
+45 http cache which-boxed-primitive@https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.1.1.tgz 0ms (cache hit)
+46 http cache which-builtin-type@https://registry.npmjs.org/which-builtin-type/-/which-builtin-type-1.2.1.tgz 0ms (cache hit)
+47 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+48 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-16.0.1.tgz 0ms (cache hit)
+49 http cache whatwg-mimetype@https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-5.0.0.tgz 0ms (cache hit)
+50 http cache web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-4.0.0-beta.3.tgz 0ms (cache hit)
+51 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz 0ms (cache hit)
+52 http cache w3c-xmlserializer@https://registry.npmjs.org/w3c-xmlserializer/-/w3c-xmlserializer-5.0.0.tgz 0ms (cache hit)
+53 http cache vite@https://registry.npmjs.org/vite/-/vite-8.0.3.tgz 0ms (cache hit)
+54 http cache vitest@https://registry.npmjs.org/vitest/-/vitest-4.1.2.tgz 0ms (cache hit)
+55 http cache vary@https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 0ms (cache hit)
+56 http cache urlpattern-polyfill@https://registry.npmjs.org/urlpattern-polyfill/-/urlpattern-polyfill-10.1.0.tgz 0ms (cache hit)
+57 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+58 http cache uri-js@https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz 0ms (cache hit)
+59 http cache unrs-resolver@https://registry.npmjs.org/unrs-resolver/-/unrs-resolver-1.11.1.tgz 0ms (cache hit)
+60 http cache unpipe@https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 0ms (cache hit)
+61 http cache unenv@https://registry.npmjs.org/unenv/-/unenv-2.0.0-rc.24.tgz 0ms (cache hit)
+62 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.18.2.tgz 1ms (cache hit)
+63 http cache undici@https://registry.npmjs.org/undici/-/undici-7.24.6.tgz 0ms (cache hit)
+64 http cache typescript-eslint@https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.57.2.tgz 0ms (cache hit)
+65 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+66 http cache unbox-primitive@https://registry.npmjs.org/unbox-primitive/-/unbox-primitive-1.1.0.tgz 0ms (cache hit)
+67 http cache typed-array-byte-offset@https://registry.npmjs.org/typed-array-byte-offset/-/typed-array-byte-offset-1.0.4.tgz 0ms (cache hit)
+68 http cache typed-array-length@https://registry.npmjs.org/typed-array-length/-/typed-array-length-1.0.7.tgz 0ms (cache hit)
+69 http cache typed-array-byte-length@https://registry.npmjs.org/typed-array-byte-length/-/typed-array-byte-length-1.0.3.tgz 0ms (cache hit)
+70 http cache type-is@https://registry.npmjs.org/type-is/-/type-is-2.0.1.tgz 0ms (cache hit)
+71 http cache typed-array-buffer@https://registry.npmjs.org/typed-array-buffer/-/typed-array-buffer-1.0.3.tgz 0ms (cache hit)
+72 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+73 http cache type-check@https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz 0ms (cache hit)
+74 http cache ts-tqdm@https://registry.npmjs.org/ts-tqdm/-/ts-tqdm-0.8.6.tgz 0ms (cache hit)
+75 http cache tsconfig-paths@https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.15.0.tgz 0ms (cache hit)
+76 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-6.0.0.tgz 0ms (cache hit)
+77 http cache ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.5.0.tgz 0ms (cache hit)
+78 http cache tldts-core@https://registry.npmjs.org/tldts-core/-/tldts-core-7.0.27.tgz 0ms (cache hit)
+79 http cache tough-cookie@https://registry.npmjs.org/tough-cookie/-/tough-cookie-6.0.1.tgz 0ms (cache hit)
+80 http cache toidentifier@https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz 0ms (cache hit)
+81 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+82 http cache tldts@https://registry.npmjs.org/tldts/-/tldts-7.0.27.tgz 0ms (cache hit)
+83 http cache tinyrainbow@https://registry.npmjs.org/tinyrainbow/-/tinyrainbow-3.1.0.tgz 0ms (cache hit)
+84 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 0ms (cache hit)
+85 http cache tinyexec@https://registry.npmjs.org/tinyexec/-/tinyexec-1.0.4.tgz 0ms (cache hit)
+86 http cache tinybench@https://registry.npmjs.org/tinybench/-/tinybench-2.9.0.tgz 0ms (cache hit)
+87 http cache terser@https://registry.npmjs.org/terser/-/terser-5.16.9.tgz 0ms (cache hit)
+88 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz 0ms (cache hit)
+89 http cache tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.2.tgz 0ms (cache hit)
+90 http cache tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.5.0.tgz 0ms (cache hit)
+91 http cache symbol-tree@https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz 0ms (cache hit)
+92 http cache supports-preserve-symlinks-flag@https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz 0ms (cache hit)
+93 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+94 http cache styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.6.tgz 0ms (cache hit)
+95 http cache strnum@https://registry.npmjs.org/strnum/-/strnum-2.2.2.tgz 0ms (cache hit)
+96 http cache strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz 0ms (cache hit)
+97 http cache strip-bom@https://registry.npmjs.org/strip-bom/-/strip-bom-3.0.0.tgz 0ms (cache hit)
+98 http cache strip-final-newline@https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz 0ms (cache hit)
+99 http cache strip-indent@https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz 0ms (cache hit)
+100 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 1ms (cache hit)
+101 http cache string.prototype.trimstart@https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.8.tgz 0ms (cache hit)
+102 http cache string.prototype.trimend@https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.9.tgz 0ms (cache hit)
+103 http cache string.prototype.trim@https://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.2.10.tgz 0ms (cache hit)
+104 http cache string.prototype.repeat@https://registry.npmjs.org/string.prototype.repeat/-/string.prototype.repeat-1.0.0.tgz 0ms (cache hit)
+105 http cache string.prototype.matchall@https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.12.tgz 0ms (cache hit)
+106 http cache string.prototype.includes@https://registry.npmjs.org/string.prototype.includes/-/string.prototype.includes-2.0.1.tgz 0ms (cache hit)
+107 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz 0ms (cache hit)
+108 http cache stop-iteration-iterator@https://registry.npmjs.org/stop-iteration-iterator/-/stop-iteration-iterator-1.1.0.tgz 0ms (cache hit)
+109 http cache std-env@https://registry.npmjs.org/std-env/-/std-env-4.0.0.tgz 0ms (cache hit)
+110 http cache stackback@https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz 0ms (cache hit)
+111 http cache statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz 0ms (cache hit)
+112 http cache source-map-support@https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz 0ms (cache hit)
+113 http cache stable-hash@https://registry.npmjs.org/stable-hash/-/stable-hash-0.0.5.tgz 0ms (cache hit)
+114 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 0ms (cache hit)
+115 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+116 http cache signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz 0ms (cache hit)
+117 http cache siginfo@https://registry.npmjs.org/siginfo/-/siginfo-2.0.0.tgz 0ms (cache hit)
+118 http cache side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+119 http cache side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+120 http cache side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz 0ms (cache hit)
+121 http cache side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 0ms (cache hit)
+122 http cache shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 0ms (cache hit)
+123 http cache sharp@https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz 0ms (cache hit)
+124 http cache shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 0ms (cache hit)
+125 http cache setprototypeof@https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz 0ms (cache hit)
+126 http cache set-proto@https://registry.npmjs.org/set-proto/-/set-proto-1.0.0.tgz 0ms (cache hit)
+127 http cache set-function-length@https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.2.tgz 0ms (cache hit)
+128 http cache set-function-name@https://registry.npmjs.org/set-function-name/-/set-function-name-2.0.2.tgz 1ms (cache hit)
+129 http cache serve-static@https://registry.npmjs.org/serve-static/-/serve-static-2.2.1.tgz 0ms (cache hit)
+130 http cache send@https://registry.npmjs.org/send/-/send-1.2.1.tgz 0ms (cache hit)
+131 http cache saxes@https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz 0ms (cache hit)
+132 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+133 http cache safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+134 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+135 http cache safe-push-apply@https://registry.npmjs.org/safe-push-apply/-/safe-push-apply-1.0.0.tgz 0ms (cache hit)
+136 http cache safe-array-concat@https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.1.3.tgz 0ms (cache hit)
+137 http cache safe-regex-test@https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.1.0.tgz 0ms (cache hit)
+138 http cache run-parallel@https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 0ms (cache hit)
+139 http cache router@https://registry.npmjs.org/router/-/router-2.2.0.tgz 0ms (cache hit)
+140 http cache reusify@https://registry.npmjs.org/reusify/-/reusify-1.1.0.tgz 0ms (cache hit)
+141 http cache resolve-pkg-maps@https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz 0ms (cache hit)
+142 http cache resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz 0ms (cache hit)
+143 http cache rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.0.0-rc.12.tgz 0ms (cache hit)
+144 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz 1ms (cache hit)
+145 http cache require-from-string@https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz 0ms (cache hit)
+146 http cache reflect.getprototypeof@https://registry.npmjs.org/reflect.getprototypeof/-/reflect.getprototypeof-1.0.10.tgz 0ms (cache hit)
+147 http cache regexp.prototype.flags@https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.5.4.tgz 0ms (cache hit)
+148 http cache react-is@https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz 0ms (cache hit)
+149 http cache redent@https://registry.npmjs.org/redent/-/redent-3.0.0.tgz 0ms (cache hit)
+150 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz 0ms (cache hit)
+151 http cache react@https://registry.npmjs.org/react/-/react-19.2.4.tgz 0ms (cache hit)
+152 http cache raw-body@https://registry.npmjs.org/raw-body/-/raw-body-3.0.2.tgz 0ms (cache hit)
+153 http cache range-parser@https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 0ms (cache hit)
+154 http cache queue-microtask@https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 0ms (cache hit)
+155 http cache qs@https://registry.npmjs.org/qs/-/qs-6.15.0.tgz 0ms (cache hit)
+156 http cache proxy-addr@https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz 0ms (cache hit)
+157 http cache punycode@https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz 0ms (cache hit)
+158 http cache prop-types@https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz 0ms (cache hit)
+159 http cache pretty-format@https://registry.npmjs.org/pretty-format/-/pretty-format-27.5.1.tgz 0ms (cache hit)
+160 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.8.tgz 0ms (cache hit)
+161 http cache prelude-ls@https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz 0ms (cache hit)
+162 http cache playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.58.2.tgz 0ms (cache hit)
+163 http cache possible-typed-array-names@https://registry.npmjs.org/possible-typed-array-names/-/possible-typed-array-names-1.1.0.tgz 0ms (cache hit)
+164 http cache playwright@https://registry.npmjs.org/playwright/-/playwright-1.58.2.tgz 0ms (cache hit)
+165 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 0ms (cache hit)
+166 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+167 http cache path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-6.3.0.tgz 0ms (cache hit)
+168 http cache pathe@https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz 0ms (cache hit)
+169 http cache path-scurry@https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz 0ms (cache hit)
+170 http cache path-parse@https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz 0ms (cache hit)
+171 http cache path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 0ms (cache hit)
+172 http cache path-expression-matcher@https://registry.npmjs.org/path-expression-matcher/-/path-expression-matcher-1.2.0.tgz 0ms (cache hit)
+173 http cache parseurl@https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 0ms (cache hit)
+174 http cache path-exists@https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz 0ms (cache hit)
+175 http cache parse5@https://registry.npmjs.org/parse5/-/parse5-8.0.0.tgz 0ms (cache hit)
+176 http cache parent-module@https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz 0ms (cache hit)
+177 http cache package-json-from-dist@https://registry.npmjs.org/package-json-from-dist/-/package-json-from-dist-1.0.1.tgz 0ms (cache hit)
+178 http cache p-limit@https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz 1ms (cache hit)
+179 http cache p-locate@https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz 0ms (cache hit)
+180 http cache own-keys@https://registry.npmjs.org/own-keys/-/own-keys-1.0.1.tgz 0ms (cache hit)
+181 http cache optionator@https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz 0ms (cache hit)
+182 http cache once@https://registry.npmjs.org/once/-/once-1.4.0.tgz 0ms (cache hit)
+183 http cache onetime@https://registry.npmjs.org/onetime/-/onetime-5.1.2.tgz 0ms (cache hit)
+184 http cache on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz 0ms (cache hit)
+185 http cache openai@https://registry.npmjs.org/openai/-/openai-6.33.0.tgz 0ms (cache hit)
+186 http cache obug@https://registry.npmjs.org/obug/-/obug-2.1.1.tgz 0ms (cache hit)
+187 http cache object.values@https://registry.npmjs.org/object.values/-/object.values-1.2.1.tgz 0ms (cache hit)
+188 http cache obliterator@https://registry.npmjs.org/obliterator/-/obliterator-1.6.1.tgz 0ms (cache hit)
+189 http cache object.groupby@https://registry.npmjs.org/object.groupby/-/object.groupby-1.0.3.tgz 0ms (cache hit)
+190 http cache object.fromentries@https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.8.tgz 0ms (cache hit)
+191 http cache object.entries@https://registry.npmjs.org/object.entries/-/object.entries-1.1.9.tgz 0ms (cache hit)
+192 http cache object.assign@https://registry.npmjs.org/object.assign/-/object.assign-4.1.7.tgz 0ms (cache hit)
+193 http cache object-treeify@https://registry.npmjs.org/object-treeify/-/object-treeify-1.1.33.tgz 0ms (cache hit)
+194 http cache object-keys@https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz 0ms (cache hit)
+195 http cache object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+196 http cache object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+197 http cache npm-run-path@https://registry.npmjs.org/npm-run-path/-/npm-run-path-4.0.1.tgz 0ms (cache hit)
+198 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 0ms (cache hit)
+199 http cache node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.36.tgz 0ms (cache hit)
+200 http cache node-exports-info@https://registry.npmjs.org/node-exports-info/-/node-exports-info-1.6.0.tgz 0ms (cache hit)
+201 http cache node-domexception@https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz 0ms (cache hit)
+202 http cache next@https://registry.npmjs.org/next/-/next-16.2.1.tgz 0ms (cache hit)
+203 http cache negotiator@https://registry.npmjs.org/negotiator/-/negotiator-1.0.0.tgz 0ms (cache hit)
+204 http cache natural-compare@https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz 0ms (cache hit)
+205 http cache napi-postinstall@https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 0ms (cache hit)
+206 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+207 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+208 http cache mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 0ms (cache hit)
+209 http cache mnemonist@https://registry.npmjs.org/mnemonist/-/mnemonist-0.38.3.tgz 0ms (cache hit)
+210 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz 0ms (cache hit)
+211 http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+212 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz 0ms (cache hit)
+213 http cache miniflare@https://registry.npmjs.org/miniflare/-/miniflare-4.20260317.3.tgz 0ms (cache hit)
+214 http cache min-indent@https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz 0ms (cache hit)
+215 http cache mimic-fn@https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz 0ms (cache hit)
+216 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-3.0.2.tgz 0ms (cache hit)
+217 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.54.0.tgz 0ms (cache hit)
+218 http cache micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz 0ms (cache hit)
+219 http cache merge2@https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz 0ms (cache hit)
+220 http cache merge-stream@https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz 0ms (cache hit)
+221 http cache media-typer@https://registry.npmjs.org/media-typer/-/media-typer-1.1.0.tgz 0ms (cache hit)
+222 http cache merge-descriptors@https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-2.0.0.tgz 0ms (cache hit)
+223 http cache mdn-data@https://registry.npmjs.org/mdn-data/-/mdn-data-2.27.1.tgz 0ms (cache hit)
+224 http cache math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+225 http cache magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 0ms (cache hit)
+226 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.553.0.tgz 0ms (cache hit)
+227 http cache lz-string@https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz 0ms (cache hit)
+228 http cache loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+229 http cache lodash.merge@https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz 0ms (cache hit)
+230 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 0ms (cache hit)
+231 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz 0ms (cache hit)
+232 http cache locate-path@https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz 0ms (cache hit)
+233 http cache lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 0ms (cache hit)
+234 http cache language-tags@https://registry.npmjs.org/language-tags/-/language-tags-1.0.9.tgz 0ms (cache hit)
+235 http cache levn@https://registry.npmjs.org/levn/-/levn-0.4.1.tgz 0ms (cache hit)
+236 http cache language-subtag-registry@https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.23.tgz 0ms (cache hit)
+237 http cache kleur@https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz 0ms (cache hit)
+238 http cache jsx-ast-utils@https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.5.tgz 0ms (cache hit)
+239 http cache keyv@https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz 0ms (cache hit)
+240 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+241 http cache json-stable-stringify-without-jsonify@https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz 0ms (cache hit)
+242 http cache json-schema-traverse@https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz 0ms (cache hit)
+243 http cache json-buffer@https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz 0ms (cache hit)
+244 http cache jsdom@https://registry.npmjs.org/jsdom/-/jsdom-29.0.1.tgz 0ms (cache hit)
+245 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+246 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+247 http cache js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 0ms (cache hit)
+248 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 0ms (cache hit)
+249 http cache jackspeak@https://registry.npmjs.org/jackspeak/-/jackspeak-4.2.3.tgz 0ms (cache hit)
+250 http cache iterator.prototype@https://registry.npmjs.org/iterator.prototype/-/iterator.prototype-1.1.5.tgz 0ms (cache hit)
+251 http cache isarray@https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz 0ms (cache hit)
+252 http cache isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 0ms (cache hit)
+253 http cache is-weakset@https://registry.npmjs.org/is-weakset/-/is-weakset-2.0.4.tgz 0ms (cache hit)
+254 http cache is-weakmap@https://registry.npmjs.org/is-weakmap/-/is-weakmap-2.0.2.tgz 0ms (cache hit)
+255 http cache is-weakref@https://registry.npmjs.org/is-weakref/-/is-weakref-1.1.1.tgz 0ms (cache hit)
+256 http cache is-typed-array@https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.15.tgz 0ms (cache hit)
+257 http cache is-symbol@https://registry.npmjs.org/is-symbol/-/is-symbol-1.1.1.tgz 0ms (cache hit)
+258 http cache is-string@https://registry.npmjs.org/is-string/-/is-string-1.1.1.tgz 0ms (cache hit)
+259 http cache is-stream@https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz 0ms (cache hit)
+260 http cache is-shared-array-buffer@https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.4.tgz 0ms (cache hit)
+261 http cache is-set@https://registry.npmjs.org/is-set/-/is-set-2.0.3.tgz 0ms (cache hit)
+262 http cache is-regex@https://registry.npmjs.org/is-regex/-/is-regex-1.2.1.tgz 0ms (cache hit)
+263 http cache is-promise@https://registry.npmjs.org/is-promise/-/is-promise-4.0.0.tgz 0ms (cache hit)
+264 http cache is-potential-custom-element-name@https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz 0ms (cache hit)
+265 http cache is-number-object@https://registry.npmjs.org/is-number-object/-/is-number-object-1.1.1.tgz 0ms (cache hit)
+266 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+267 http cache is-negative-zero@https://registry.npmjs.org/is-negative-zero/-/is-negative-zero-2.0.3.tgz 0ms (cache hit)
+268 http cache is-map@https://registry.npmjs.org/is-map/-/is-map-2.0.3.tgz 0ms (cache hit)
+269 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+270 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+271 http cache is-finalizationregistry@https://registry.npmjs.org/is-finalizationregistry/-/is-finalizationregistry-1.1.1.tgz 0ms (cache hit)
+272 http cache is-generator-function@https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.1.2.tgz 0ms (cache hit)
+273 http cache is-data-view@https://registry.npmjs.org/is-data-view/-/is-data-view-1.0.2.tgz 0ms (cache hit)
+274 http cache is-date-object@https://registry.npmjs.org/is-date-object/-/is-date-object-1.1.0.tgz 0ms (cache hit)
+275 http cache is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.16.1.tgz 0ms (cache hit)
+276 http cache is-bun-module@https://registry.npmjs.org/is-bun-module/-/is-bun-module-2.0.0.tgz 0ms (cache hit)
+277 http cache is-boolean-object@https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.2.2.tgz 0ms (cache hit)
+278 http cache is-bigint@https://registry.npmjs.org/is-bigint/-/is-bigint-1.1.0.tgz 0ms (cache hit)
+279 http cache is-callable@https://registry.npmjs.org/is-callable/-/is-callable-1.2.7.tgz 0ms (cache hit)
+280 http cache is-async-function@https://registry.npmjs.org/is-async-function/-/is-async-function-2.1.1.tgz 0ms (cache hit)
+281 http cache is-array-buffer@https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.5.tgz 0ms (cache hit)
+282 http cache ipaddr.js@https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz 0ms (cache hit)
+283 http cache internal-slot@https://registry.npmjs.org/internal-slot/-/internal-slot-1.1.0.tgz 0ms (cache hit)
+284 http cache indent-string@https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz 0ms (cache hit)
+285 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+286 http cache imurmurhash@https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz 0ms (cache hit)
+287 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz 0ms (cache hit)
+288 http cache import-fresh@https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz 0ms (cache hit)
+289 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.2.tgz 0ms (cache hit)
+290 http cache humanize-ms@https://registry.npmjs.org/humanize-ms/-/humanize-ms-1.2.1.tgz 0ms (cache hit)
+291 http cache human-signals@https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz 0ms (cache hit)
+292 http cache html-encoding-sniffer@https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-6.0.0.tgz 0ms (cache hit)
+293 http cache hermes-parser@https://registry.npmjs.org/hermes-parser/-/hermes-parser-0.25.1.tgz 0ms (cache hit)
+294 http cache http-errors@https://registry.npmjs.org/http-errors/-/http-errors-2.0.1.tgz 0ms (cache hit)
+295 http cache hermes-estree@https://registry.npmjs.org/hermes-estree/-/hermes-estree-0.25.1.tgz 0ms (cache hit)
+296 http cache has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 0ms (cache hit)
+297 http cache has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+298 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+299 http cache has-proto@https://registry.npmjs.org/has-proto/-/has-proto-1.2.0.tgz 0ms (cache hit)
+300 http cache has-property-descriptors@https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz 0ms (cache hit)
+301 http cache has-bigints@https://registry.npmjs.org/has-bigints/-/has-bigints-1.1.0.tgz 0ms (cache hit)
+302 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+303 http cache gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+304 http cache gzip-size@https://registry.npmjs.org/gzip-size/-/gzip-size-6.0.0.tgz 0ms (cache hit)
+305 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+306 http cache globals@https://registry.npmjs.org/globals/-/globals-16.4.0.tgz 0ms (cache hit)
+307 http cache globalthis@https://registry.npmjs.org/globalthis/-/globalthis-1.0.4.tgz 0ms (cache hit)
+308 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz 0ms (cache hit)
+309 http cache glob@https://registry.npmjs.org/glob/-/glob-12.0.0.tgz 0ms (cache hit)
+310 http cache get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.13.7.tgz 0ms (cache hit)
+311 http cache get-symbol-description@https://registry.npmjs.org/get-symbol-description/-/get-symbol-description-1.1.0.tgz 0ms (cache hit)
+312 http cache get-stream@https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz 0ms (cache hit)
+313 http cache get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+314 http cache get-east-asian-width@https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.5.0.tgz 0ms (cache hit)
+315 http cache get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+316 http cache get-caller-file@https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 0ms (cache hit)
+317 http cache gensync@https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz 0ms (cache hit)
+318 http cache functions-have-names@https://registry.npmjs.org/functions-have-names/-/functions-have-names-1.2.3.tgz 0ms (cache hit)
+319 http cache generator-function@https://registry.npmjs.org/generator-function/-/generator-function-2.0.1.tgz 0ms (cache hit)
+320 http cache function.prototype.name@https://registry.npmjs.org/function.prototype.name/-/function.prototype.name-1.1.8.tgz 0ms (cache hit)
+321 http cache fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 0ms (cache hit)
+322 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+323 http cache fresh@https://registry.npmjs.org/fresh/-/fresh-2.0.0.tgz 0ms (cache hit)
+324 http cache forwarded@https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz 0ms (cache hit)
+325 http cache formdata-node@https://registry.npmjs.org/formdata-node/-/formdata-node-4.4.1.tgz 0ms (cache hit)
+326 http cache form-data-encoder@https://registry.npmjs.org/form-data-encoder/-/form-data-encoder-1.7.2.tgz 0ms (cache hit)
+327 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.5.tgz 0ms (cache hit)
+328 http cache for-each@https://registry.npmjs.org/for-each/-/for-each-0.3.5.tgz 0ms (cache hit)
+329 http cache foreground-child@https://registry.npmjs.org/foreground-child/-/foreground-child-3.3.1.tgz 0ms (cache hit)
+330 http cache flatted@https://registry.npmjs.org/flatted/-/flatted-3.4.2.tgz 0ms (cache hit)
+331 http cache flat-cache@https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz 0ms (cache hit)
+332 http cache find-up@https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz 0ms (cache hit)
+333 http cache finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-2.1.1.tgz 0ms (cache hit)
+334 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+335 http cache file-entry-cache@https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-8.0.0.tgz 0ms (cache hit)
+336 http cache fast-xml-parser@https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.5.8.tgz 0ms (cache hit)
+337 http cache fastq@https://registry.npmjs.org/fastq/-/fastq-1.20.1.tgz 0ms (cache hit)
+338 http cache fast-levenshtein@https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz 0ms (cache hit)
+339 http cache fast-xml-builder@https://registry.npmjs.org/fast-xml-builder/-/fast-xml-builder-1.1.4.tgz 0ms (cache hit)
+340 http cache fast-glob@https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.1.tgz 0ms (cache hit)
+341 http cache fast-json-stable-stringify@https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz 0ms (cache hit)
+342 http cache fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+343 http cache express@https://registry.npmjs.org/express/-/express-5.2.1.tgz 0ms (cache hit)
+344 http cache event-target-shim@https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz 0ms (cache hit)
+345 http cache expect-type@https://registry.npmjs.org/expect-type/-/expect-type-1.3.0.tgz 0ms (cache hit)
+346 http cache execa@https://registry.npmjs.org/execa/-/execa-5.1.1.tgz 0ms (cache hit)
+347 http cache estree-walker@https://registry.npmjs.org/estree-walker/-/estree-walker-3.0.3.tgz 0ms (cache hit)
+348 http cache esutils@https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz 0ms (cache hit)
+349 http cache estraverse@https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz 0ms (cache hit)
+350 http cache etag@https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 0ms (cache hit)
+351 http cache esrecurse@https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz 0ms (cache hit)
+352 http cache esquery@https://registry.npmjs.org/esquery/-/esquery-1.7.0.tgz 0ms (cache hit)
+353 http cache espree@https://registry.npmjs.org/espree/-/espree-10.4.0.tgz 0ms (cache hit)
+354 http cache esprima@https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz 0ms (cache hit)
+355 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.2.1.tgz 0ms (cache hit)
+356 http cache eslint-plugin-react-hooks@https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-7.0.1.tgz 0ms (cache hit)
+357 http cache eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.4.0.tgz 0ms (cache hit)
+358 http cache eslint-plugin-react@https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.5.tgz 0ms (cache hit)
+359 http cache eslint-plugin-jsx-a11y@https://registry.npmjs.org/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.10.2.tgz 0ms (cache hit)
+360 http cache eslint-plugin-import@https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.32.0.tgz 0ms (cache hit)
+361 http cache eslint-module-utils@https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.12.1.tgz 0ms (cache hit)
+362 http cache eslint-import-resolver-typescript@https://registry.npmjs.org/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.10.1.tgz 0ms (cache hit)
+363 http cache eslint-import-resolver-node@https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.9.tgz 0ms (cache hit)
+364 http cache eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-16.2.1.tgz 0ms (cache hit)
+365 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz 0ms (cache hit)
+366 http cache escape-html@https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 0ms (cache hit)
+367 http cache escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz 0ms (cache hit)
+368 http cache escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 0ms (cache hit)
+369 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.27.4.tgz 0ms (cache hit)
+370 http cache es-to-primitive@https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.3.0.tgz 0ms (cache hit)
+371 http cache es-shim-unscopables@https://registry.npmjs.org/es-shim-unscopables/-/es-shim-unscopables-1.1.0.tgz 0ms (cache hit)
+372 http cache es-set-tostringtag@https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 0ms (cache hit)
+373 http cache es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+374 http cache es-iterator-helpers@https://registry.npmjs.org/es-iterator-helpers/-/es-iterator-helpers-1.3.1.tgz 0ms (cache hit)
+375 http cache es-module-lexer@https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.0.0.tgz 0ms (cache hit)
+376 http cache es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+377 http cache es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+378 http cache es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.1.tgz 0ms (cache hit)
+379 http cache error-stack-parser-es@https://registry.npmjs.org/error-stack-parser-es/-/error-stack-parser-es-1.0.5.tgz 0ms (cache hit)
+380 http cache enquirer@https://registry.npmjs.org/enquirer/-/enquirer-2.4.1.tgz 0ms (cache hit)
+381 http cache enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.20.1.tgz 0ms (cache hit)
+382 http cache entities@https://registry.npmjs.org/entities/-/entities-6.0.1.tgz 0ms (cache hit)
+383 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz 0ms (cache hit)
+384 http cache encodeurl@https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz 0ms (cache hit)
+385 http cache electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.328.tgz 0ms (cache hit)
+386 http cache ee-first@https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 0ms (cache hit)
+387 http cache eciesjs@https://registry.npmjs.org/eciesjs/-/eciesjs-0.4.18.tgz 0ms (cache hit)
+388 http cache duplexer@https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz 0ms (cache hit)
+389 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz 0ms (cache hit)
+390 http cache dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+391 http cache dom-accessibility-api@https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.5.16.tgz 0ms (cache hit)
+392 http cache doctrine@https://registry.npmjs.org/doctrine/-/doctrine-2.1.0.tgz 0ms (cache hit)
+393 http cache dequal@https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz 0ms (cache hit)
+394 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+395 http cache depd@https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 0ms (cache hit)
+396 http cache delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 0ms (cache hit)
+397 http cache define-properties@https://registry.npmjs.org/define-properties/-/define-properties-1.2.1.tgz 0ms (cache hit)
+398 http cache define-data-property@https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.4.tgz 0ms (cache hit)
+399 http cache deep-is@https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz 0ms (cache hit)
+400 http cache decimal.js@https://registry.npmjs.org/decimal.js/-/decimal.js-10.6.0.tgz 0ms (cache hit)
+401 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+402 http cache data-view-byte-offset@https://registry.npmjs.org/data-view-byte-offset/-/data-view-byte-offset-1.0.1.tgz 0ms (cache hit)
+403 http cache data-view-byte-length@https://registry.npmjs.org/data-view-byte-length/-/data-view-byte-length-1.0.2.tgz 0ms (cache hit)
+404 http cache data-view-buffer@https://registry.npmjs.org/data-view-buffer/-/data-view-buffer-1.0.2.tgz 0ms (cache hit)
+405 http cache data-urls@https://registry.npmjs.org/data-urls/-/data-urls-7.0.0.tgz 0ms (cache hit)
+406 http cache damerau-levenshtein@https://registry.npmjs.org/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz 0ms (cache hit)
+407 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+408 http cache css.escape@https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz 0ms (cache hit)
+409 http cache css-tree@https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz 0ms (cache hit)
+410 http cache cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 0ms (cache hit)
+411 http cache cookie-signature@https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.2.2.tgz 0ms (cache hit)
+412 http cache content-type@https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz 0ms (cache hit)
+413 http cache convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 0ms (cache hit)
+414 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz 0ms (cache hit)
+415 http cache content-disposition@https://registry.npmjs.org/content-disposition/-/content-disposition-1.0.1.tgz 0ms (cache hit)
+416 http cache comment-json@https://registry.npmjs.org/comment-json/-/comment-json-4.6.2.tgz 0ms (cache hit)
+417 http cache concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 0ms (cache hit)
+418 http cache combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 0ms (cache hit)
+419 http cache commander@https://registry.npmjs.org/commander/-/commander-11.1.0.tgz 0ms (cache hit)
+420 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+421 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+422 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+423 http cache cloudflare@https://registry.npmjs.org/cloudflare/-/cloudflare-4.5.0.tgz 0ms (cache hit)
+424 http cache cliui@https://registry.npmjs.org/cliui/-/cliui-9.0.1.tgz 0ms (cache hit)
+425 http cache client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 0ms (cache hit)
+426 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+427 http cache chai@https://registry.npmjs.org/chai/-/chai-6.2.2.tgz 0ms (cache hit)
+428 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001781.tgz 0ms (cache hit)
+429 http cache callsites@https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz 1ms (cache hit)
+430 http cache call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+431 http cache call-bind@https://registry.npmjs.org/call-bind/-/call-bind-1.0.8.tgz 0ms (cache hit)
+432 http cache call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+433 http cache bytes@https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz 0ms (cache hit)
+434 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 0ms (cache hit)
+435 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+436 http cache buffer-from@https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz 0ms (cache hit)
+437 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.13.tgz 0ms (cache hit)
+438 http cache bowser@https://registry.npmjs.org/bowser/-/bowser-2.14.1.tgz 0ms (cache hit)
+439 http cache body-parser@https://registry.npmjs.org/body-parser/-/body-parser-2.2.2.tgz 0ms (cache hit)
+440 http cache blake3-wasm@https://registry.npmjs.org/blake3-wasm/-/blake3-wasm-2.1.5.tgz 0ms (cache hit)
+441 http cache bidi-js@https://registry.npmjs.org/bidi-js/-/bidi-js-1.0.3.tgz 0ms (cache hit)
+442 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.12.tgz 0ms (cache hit)
+443 http cache axobject-query@https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz 0ms (cache hit)
+444 http cache axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.11.1.tgz 0ms (cache hit)
+445 http cache aws4fetch@https://registry.npmjs.org/aws4fetch/-/aws4fetch-1.0.20.tgz 0ms (cache hit)
+446 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 0ms (cache hit)
+447 http cache available-typed-arrays@https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.7.tgz 0ms (cache hit)
+448 http cache async-function@https://registry.npmjs.org/async-function/-/async-function-1.0.0.tgz 0ms (cache hit)
+449 http cache asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 0ms (cache hit)
+450 http cache ast-types-flow@https://registry.npmjs.org/ast-types-flow/-/ast-types-flow-0.0.8.tgz 0ms (cache hit)
+451 http cache assertion-error@https://registry.npmjs.org/assertion-error/-/assertion-error-2.0.1.tgz 0ms (cache hit)
+452 http cache arraybuffer.prototype.slice@https://registry.npmjs.org/arraybuffer.prototype.slice/-/arraybuffer.prototype.slice-1.0.4.tgz 0ms (cache hit)
+453 http cache array.prototype.tosorted@https://registry.npmjs.org/array.prototype.tosorted/-/array.prototype.tosorted-1.1.4.tgz 0ms (cache hit)
+454 http cache array.prototype.flatmap@https://registry.npmjs.org/array.prototype.flatmap/-/array.prototype.flatmap-1.3.3.tgz 0ms (cache hit)
+455 http cache array.prototype.flat@https://registry.npmjs.org/array.prototype.flat/-/array.prototype.flat-1.3.3.tgz 0ms (cache hit)
+456 http cache array.prototype.findlastindex@https://registry.npmjs.org/array.prototype.findlastindex/-/array.prototype.findlastindex-1.2.6.tgz 0ms (cache hit)
+457 http cache array-timsort@https://registry.npmjs.org/array-timsort/-/array-timsort-1.0.3.tgz 0ms (cache hit)
+458 http cache array-includes@https://registry.npmjs.org/array-includes/-/array-includes-3.1.9.tgz 0ms (cache hit)
+459 http cache array.prototype.findlast@https://registry.npmjs.org/array.prototype.findlast/-/array.prototype.findlast-1.2.5.tgz 0ms (cache hit)
+460 http cache array-buffer-byte-length@https://registry.npmjs.org/array-buffer-byte-length/-/array-buffer-byte-length-1.0.2.tgz 0ms (cache hit)
+461 http cache aria-query@https://registry.npmjs.org/aria-query/-/aria-query-5.3.0.tgz 0ms (cache hit)
+462 http cache argparse@https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz 0ms (cache hit)
+463 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+464 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+465 http cache ajv@https://registry.npmjs.org/ajv/-/ajv-6.14.0.tgz 0ms (cache hit)
+466 http cache ansi-colors@https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.3.tgz 0ms (cache hit)
+467 http cache acorn-jsx@https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz 0ms (cache hit)
+468 http cache agentkeepalive@https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.6.0.tgz 0ms (cache hit)
+469 http cache accepts@https://registry.npmjs.org/accepts/-/accepts-2.0.0.tgz 0ms (cache hit)
+470 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 0ms (cache hit)
+471 http cache @vitest/utils@https://registry.npmjs.org/@vitest/utils/-/utils-4.1.2.tgz 0ms (cache hit)
+472 http cache abort-controller@https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz 0ms (cache hit)
+473 http cache @vitest/spy@https://registry.npmjs.org/@vitest/spy/-/spy-4.1.2.tgz 0ms (cache hit)
+474 http cache @vitest/snapshot@https://registry.npmjs.org/@vitest/snapshot/-/snapshot-4.1.2.tgz 0ms (cache hit)
+475 http cache @vitest/runner@https://registry.npmjs.org/@vitest/runner/-/runner-4.1.2.tgz 0ms (cache hit)
+476 http cache @vitest/pretty-format@https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-4.1.2.tgz 0ms (cache hit)
+477 http cache @unrs/resolver-binding-win32-x64-msvc@https://registry.npmjs.org/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz 0ms (cache hit)
+478 http cache @vitest/mocker@https://registry.npmjs.org/@vitest/mocker/-/mocker-4.1.2.tgz 0ms (cache hit)
+479 http cache @vitest/expect@https://registry.npmjs.org/@vitest/expect/-/expect-4.1.2.tgz 1ms (cache hit)
+480 http cache @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.57.2.tgz 0ms (cache hit)
+481 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.57.2.tgz 0ms (cache hit)
+482 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.57.2.tgz 0ms (cache hit)
+483 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.57.2.tgz 0ms (cache hit)
+484 http cache @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.57.2.tgz 0ms (cache hit)
+485 http cache @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.57.2.tgz 0ms (cache hit)
+486 http cache @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.57.2.tgz 0ms (cache hit)
+487 http cache @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.57.2.tgz 0ms (cache hit)
+488 http cache @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.57.2.tgz 0ms (cache hit)
+489 http cache @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.57.2.tgz 0ms (cache hit)
+490 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz 0ms (cache hit)
+491 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz 0ms (cache hit)
+492 http cache @types/node-fetch@https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.13.tgz 0ms (cache hit)
+493 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-25.5.0.tgz 0ms (cache hit)
+494 http cache @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 0ms (cache hit)
+495 http cache @types/json5@https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz 0ms (cache hit)
+496 http cache @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 0ms (cache hit)
+497 http cache @types/chai@https://registry.npmjs.org/@types/chai/-/chai-5.2.3.tgz 0ms (cache hit)
+498 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.1.tgz 0ms (cache hit)
+499 http cache @types/deep-eql@https://registry.npmjs.org/@types/deep-eql/-/deep-eql-4.0.2.tgz 0ms (cache hit)
+500 http cache @tsconfig/node18@https://registry.npmjs.org/@tsconfig/node18/-/node18-1.0.3.tgz 0ms (cache hit)
+501 http cache @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.2.2.tgz 0ms (cache hit)
+502 http cache @testing-library/react@https://registry.npmjs.org/@testing-library/react/-/react-16.3.2.tgz 0ms (cache hit)
+503 http cache @types/aria-query@https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.4.tgz 0ms (cache hit)
+504 http cache @tailwindcss/oxide-win32-x64-msvc@https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.2.2.tgz 0ms (cache hit)
+505 http cache @testing-library/jest-dom@https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-6.9.1.tgz 0ms (cache hit)
+506 http cache @testing-library/dom@https://registry.npmjs.org/@testing-library/dom/-/dom-10.4.1.tgz 0ms (cache hit)
+507 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 0ms (cache hit)
+508 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 0ms (cache hit)
+509 http cache @speed-highlight/core@https://registry.npmjs.org/@speed-highlight/core/-/core-1.2.15.tgz 0ms (cache hit)
+510 http cache @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.2.2.tgz 0ms (cache hit)
+511 http cache @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.2.2.tgz 0ms (cache hit)
+512 http cache @smithy/uuid@https://registry.npmjs.org/@smithy/uuid/-/uuid-1.1.2.tgz 0ms (cache hit)
+513 http cache @smithy/util-waiter@https://registry.npmjs.org/@smithy/util-waiter/-/util-waiter-4.2.13.tgz 0ms (cache hit)
+514 http cache @smithy/util-utf8@https://registry.npmjs.org/@smithy/util-utf8/-/util-utf8-4.2.2.tgz 0ms (cache hit)
+515 http cache @smithy/util-uri-escape@https://registry.npmjs.org/@smithy/util-uri-escape/-/util-uri-escape-4.2.2.tgz 0ms (cache hit)
+516 http cache @smithy/util-stream@https://registry.npmjs.org/@smithy/util-stream/-/util-stream-4.5.20.tgz 0ms (cache hit)
+517 http cache @smithy/util-retry@https://registry.npmjs.org/@smithy/util-retry/-/util-retry-4.2.12.tgz 0ms (cache hit)
+518 http cache @smithy/util-hex-encoding@https://registry.npmjs.org/@smithy/util-hex-encoding/-/util-hex-encoding-4.2.2.tgz 0ms (cache hit)
+519 http cache @smithy/util-middleware@https://registry.npmjs.org/@smithy/util-middleware/-/util-middleware-4.2.12.tgz 0ms (cache hit)
+520 http cache @smithy/util-defaults-mode-node@https://registry.npmjs.org/@smithy/util-defaults-mode-node/-/util-defaults-mode-node-4.2.47.tgz 0ms (cache hit)
+521 http cache @smithy/util-endpoints@https://registry.npmjs.org/@smithy/util-endpoints/-/util-endpoints-3.3.3.tgz 0ms (cache hit)
+522 http cache @smithy/util-defaults-mode-browser@https://registry.npmjs.org/@smithy/util-defaults-mode-browser/-/util-defaults-mode-browser-4.3.43.tgz 0ms (cache hit)
+523 http cache @smithy/util-config-provider@https://registry.npmjs.org/@smithy/util-config-provider/-/util-config-provider-4.2.2.tgz 0ms (cache hit)
+524 http cache @smithy/util-buffer-from@https://registry.npmjs.org/@smithy/util-buffer-from/-/util-buffer-from-4.2.2.tgz 0ms (cache hit)
+525 http cache @smithy/util-body-length-node@https://registry.npmjs.org/@smithy/util-body-length-node/-/util-body-length-node-4.2.3.tgz 0ms (cache hit)
+526 http cache @smithy/util-base64@https://registry.npmjs.org/@smithy/util-base64/-/util-base64-4.3.2.tgz 0ms (cache hit)
+527 http cache @smithy/util-body-length-browser@https://registry.npmjs.org/@smithy/util-body-length-browser/-/util-body-length-browser-4.2.2.tgz 0ms (cache hit)
+528 http cache @smithy/url-parser@https://registry.npmjs.org/@smithy/url-parser/-/url-parser-4.2.12.tgz 0ms (cache hit)
+529 http cache @smithy/types@https://registry.npmjs.org/@smithy/types/-/types-4.13.1.tgz 0ms (cache hit)
+530 http cache @smithy/smithy-client@https://registry.npmjs.org/@smithy/smithy-client/-/smithy-client-4.12.7.tgz 0ms (cache hit)
+531 http cache @smithy/signature-v4@https://registry.npmjs.org/@smithy/signature-v4/-/signature-v4-5.3.12.tgz 0ms (cache hit)
+532 http cache @smithy/shared-ini-file-loader@https://registry.npmjs.org/@smithy/shared-ini-file-loader/-/shared-ini-file-loader-4.4.7.tgz 0ms (cache hit)
+533 http cache @smithy/service-error-classification@https://registry.npmjs.org/@smithy/service-error-classification/-/service-error-classification-4.2.12.tgz 0ms (cache hit)
+534 http cache @smithy/querystring-parser@https://registry.npmjs.org/@smithy/querystring-parser/-/querystring-parser-4.2.12.tgz 0ms (cache hit)
+535 http cache @smithy/querystring-builder@https://registry.npmjs.org/@smithy/querystring-builder/-/querystring-builder-4.2.12.tgz 0ms (cache hit)
+536 http cache @smithy/protocol-http@https://registry.npmjs.org/@smithy/protocol-http/-/protocol-http-5.3.12.tgz 0ms (cache hit)
+537 http cache @smithy/property-provider@https://registry.npmjs.org/@smithy/property-provider/-/property-provider-4.2.12.tgz 0ms (cache hit)
+538 http cache @smithy/node-http-handler@https://registry.npmjs.org/@smithy/node-http-handler/-/node-http-handler-4.5.0.tgz 0ms (cache hit)
+539 http cache @smithy/node-config-provider@https://registry.npmjs.org/@smithy/node-config-provider/-/node-config-provider-4.3.12.tgz 0ms (cache hit)
+540 http cache @smithy/middleware-stack@https://registry.npmjs.org/@smithy/middleware-stack/-/middleware-stack-4.2.12.tgz 0ms (cache hit)
+541 http cache @smithy/middleware-retry@https://registry.npmjs.org/@smithy/middleware-retry/-/middleware-retry-4.4.44.tgz 0ms (cache hit)
+542 http cache @smithy/middleware-serde@https://registry.npmjs.org/@smithy/middleware-serde/-/middleware-serde-4.2.15.tgz 0ms (cache hit)
+543 http cache @smithy/middleware-endpoint@https://registry.npmjs.org/@smithy/middleware-endpoint/-/middleware-endpoint-4.4.27.tgz 0ms (cache hit)
+544 http cache @smithy/md5-js@https://registry.npmjs.org/@smithy/md5-js/-/md5-js-4.2.12.tgz 0ms (cache hit)
+545 http cache @smithy/middleware-content-length@https://registry.npmjs.org/@smithy/middleware-content-length/-/middleware-content-length-4.2.12.tgz 0ms (cache hit)
+546 http cache @smithy/is-array-buffer@https://registry.npmjs.org/@smithy/is-array-buffer/-/is-array-buffer-4.2.2.tgz 0ms (cache hit)
+547 http cache @smithy/invalid-dependency@https://registry.npmjs.org/@smithy/invalid-dependency/-/invalid-dependency-4.2.12.tgz 0ms (cache hit)
+548 http cache @smithy/hash-node@https://registry.npmjs.org/@smithy/hash-node/-/hash-node-4.2.12.tgz 0ms (cache hit)
+549 http cache @smithy/hash-stream-node@https://registry.npmjs.org/@smithy/hash-stream-node/-/hash-stream-node-4.2.12.tgz 0ms (cache hit)
+550 http cache @smithy/hash-blob-browser@https://registry.npmjs.org/@smithy/hash-blob-browser/-/hash-blob-browser-4.2.13.tgz 0ms (cache hit)
+551 http cache @smithy/eventstream-serde-node@https://registry.npmjs.org/@smithy/eventstream-serde-node/-/eventstream-serde-node-4.2.12.tgz 0ms (cache hit)
+552 http cache @smithy/fetch-http-handler@https://registry.npmjs.org/@smithy/fetch-http-handler/-/fetch-http-handler-5.3.15.tgz 0ms (cache hit)
+553 http cache @smithy/eventstream-serde-config-resolver@https://registry.npmjs.org/@smithy/eventstream-serde-config-resolver/-/eventstream-serde-config-resolver-4.3.12.tgz 0ms (cache hit)
+554 http cache @smithy/eventstream-serde-browser@https://registry.npmjs.org/@smithy/eventstream-serde-browser/-/eventstream-serde-browser-4.2.12.tgz 0ms (cache hit)
+555 http cache @smithy/eventstream-codec@https://registry.npmjs.org/@smithy/eventstream-codec/-/eventstream-codec-4.2.12.tgz 0ms (cache hit)
+556 http cache @smithy/credential-provider-imds@https://registry.npmjs.org/@smithy/credential-provider-imds/-/credential-provider-imds-4.2.12.tgz 0ms (cache hit)
+557 http cache @smithy/eventstream-serde-universal@https://registry.npmjs.org/@smithy/eventstream-serde-universal/-/eventstream-serde-universal-4.2.12.tgz 0ms (cache hit)
+558 http cache @smithy/core@https://registry.npmjs.org/@smithy/core/-/core-3.23.12.tgz 0ms (cache hit)
+559 http cache @smithy/config-resolver@https://registry.npmjs.org/@smithy/config-resolver/-/config-resolver-4.4.13.tgz 0ms (cache hit)
+560 http cache @smithy/chunked-blob-reader-native@https://registry.npmjs.org/@smithy/chunked-blob-reader-native/-/chunked-blob-reader-native-4.2.3.tgz 0ms (cache hit)
+561 http cache @smithy/chunked-blob-reader@https://registry.npmjs.org/@smithy/chunked-blob-reader/-/chunked-blob-reader-5.2.2.tgz 0ms (cache hit)
+562 http cache @smithy/abort-controller@https://registry.npmjs.org/@smithy/abort-controller/-/abort-controller-4.2.12.tgz 0ms (cache hit)
+563 http cache @sindresorhus/is@https://registry.npmjs.org/@sindresorhus/is/-/is-7.2.0.tgz 0ms (cache hit)
+564 http cache @rtsao/scc@https://registry.npmjs.org/@rtsao/scc/-/scc-1.1.0.tgz 0ms (cache hit)
+565 http cache @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-rc.12.tgz 0ms (cache hit)
+566 http cache @rolldown/binding-win32-x64-msvc@https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.0-rc.12.tgz 0ms (cache hit)
+567 http cache @radix-ui/react-slot@https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.2.4.tgz 0ms (cache hit)
+568 http cache @radix-ui/react-compose-refs@https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.2.tgz 0ms (cache hit)
+569 http cache @opennextjs/cloudflare@https://registry.npmjs.org/@opennextjs/cloudflare/-/cloudflare-1.18.0.tgz 0ms (cache hit)
+570 http cache @poppinss/exception@https://registry.npmjs.org/@poppinss/exception/-/exception-1.2.3.tgz 0ms (cache hit)
+571 http cache @playwright/test@https://registry.npmjs.org/@playwright/test/-/test-1.58.2.tgz 0ms (cache hit)
+572 http cache @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.122.0.tgz 0ms (cache hit)
+573 http cache @poppinss/dumper@https://registry.npmjs.org/@poppinss/dumper/-/dumper-0.6.5.tgz 0ms (cache hit)
+574 http cache @opennextjs/aws@https://registry.npmjs.org/@opennextjs/aws/-/aws-3.9.16.tgz 0ms (cache hit)
+575 http cache @poppinss/colors@https://registry.npmjs.org/@poppinss/colors/-/colors-4.1.6.tgz 0ms (cache hit)
+576 http cache @nolyfill/is-core-module@https://registry.npmjs.org/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz 0ms (cache hit)
+577 http cache @nodelib/fs.stat@https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 0ms (cache hit)
+578 http cache @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 0ms (cache hit)
+579 http cache @nodelib/fs.walk@https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 0ms (cache hit)
+580 http cache @node-minify/utils@https://registry.npmjs.org/@node-minify/utils/-/utils-8.0.6.tgz 0ms (cache hit)
+581 http cache @node-minify/terser@https://registry.npmjs.org/@node-minify/terser/-/terser-8.0.6.tgz 0ms (cache hit)
+582 http cache @node-minify/core@https://registry.npmjs.org/@node-minify/core/-/core-8.0.6.tgz 0ms (cache hit)
+583 http cache @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.8.0.tgz 0ms (cache hit)
+584 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-16.2.1.tgz 0ms (cache hit)
+585 http cache @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.2.1.tgz 0ms (cache hit)
+586 http cache @noble/ciphers@https://registry.npmjs.org/@noble/ciphers/-/ciphers-1.3.0.tgz 0ms (cache hit)
+587 http cache @noble/curves@https://registry.npmjs.org/@noble/curves/-/curves-1.9.7.tgz 0ms (cache hit)
+588 http cache @next/eslint-plugin-next@https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-16.2.1.tgz 0ms (cache hit)
+589 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 0ms (cache hit)
+590 http cache @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 0ms (cache hit)
+591 http cache @jridgewell/source-map@https://registry.npmjs.org/@jridgewell/source-map/-/source-map-0.3.11.tgz 0ms (cache hit)
+592 http cache @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 0ms (cache hit)
+593 http cache @isaacs/cliui@https://registry.npmjs.org/@isaacs/cliui/-/cliui-9.0.0.tgz 0ms (cache hit)
+594 http cache @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 0ms (cache hit)
+595 http cache @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 0ms (cache hit)
+596 http cache @humanwhocodes/module-importer@https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz 0ms (cache hit)
+597 http cache @img/colour@https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz 0ms (cache hit)
+598 http cache @humanfs/core@https://registry.npmjs.org/@humanfs/core/-/core-0.19.1.tgz 0ms (cache hit)
+599 http cache @humanwhocodes/retry@https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz 0ms (cache hit)
+600 http cache @img/sharp-win32-x64@https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.34.5.tgz 0ms (cache hit)
+601 http cache @exodus/bytes@https://registry.npmjs.org/@exodus/bytes/-/bytes-1.15.0.tgz 0ms (cache hit)
+602 http cache @humanfs/node@https://registry.npmjs.org/@humanfs/node/-/node-0.16.7.tgz 0ms (cache hit)
+603 http cache @eslint/plugin-kit@https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.4.1.tgz 0ms (cache hit)
+604 http cache @eslint/object-schema@https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.7.tgz 0ms (cache hit)
+605 http cache @eslint/js@https://registry.npmjs.org/@eslint/js/-/js-9.39.4.tgz 0ms (cache hit)
+606 http cache @eslint/eslintrc@https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.5.tgz 0ms (cache hit)
+607 http cache @eslint-community/regexpp@https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz 0ms (cache hit)
+608 http cache @eslint/core@https://registry.npmjs.org/@eslint/core/-/core-0.17.0.tgz 0ms (cache hit)
+609 http cache @eslint/config-helpers@https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.4.2.tgz 0ms (cache hit)
+610 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.4.tgz 0ms (cache hit)
+611 http cache @eslint/config-array@https://registry.npmjs.org/@eslint/config-array/-/config-array-0.21.2.tgz 0ms (cache hit)
+612 http cache @ecies/ciphers@https://registry.npmjs.org/@ecies/ciphers/-/ciphers-0.2.5.tgz 0ms (cache hit)
+613 http cache @csstools/css-tokenizer@https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-4.0.0.tgz 0ms (cache hit)
+614 http cache @dotenvx/dotenvx@https://registry.npmjs.org/@dotenvx/dotenvx/-/dotenvx-1.31.0.tgz 0ms (cache hit)
+615 http cache @eslint-community/eslint-utils@https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.1.tgz 0ms (cache hit)
+616 http cache @csstools/css-color-parser@https://registry.npmjs.org/@csstools/css-color-parser/-/css-color-parser-4.0.2.tgz 0ms (cache hit)
+617 http cache @csstools/css-parser-algorithms@https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.0.tgz 0ms (cache hit)
+618 http cache @cspotcode/source-map-support@https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz 0ms (cache hit)
+619 http cache @csstools/css-syntax-patches-for-csstree@https://registry.npmjs.org/@csstools/css-syntax-patches-for-csstree/-/css-syntax-patches-for-csstree-1.1.2.tgz 0ms (cache hit)
+620 http cache @csstools/css-calc@https://registry.npmjs.org/@csstools/css-calc/-/css-calc-3.1.1.tgz 0ms (cache hit)
+621 http cache @bramus/specificity@https://registry.npmjs.org/@bramus/specificity/-/specificity-2.4.2.tgz 0ms (cache hit)
+622 http cache @csstools/color-helpers@https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-6.0.2.tgz 0ms (cache hit)
+623 http cache @cloudflare/unenv-preset@https://registry.npmjs.org/@cloudflare/unenv-preset/-/unenv-preset-2.16.0.tgz 0ms (cache hit)
+624 http cache @cloudflare/workerd-windows-64@https://registry.npmjs.org/@cloudflare/workerd-windows-64/-/workerd-windows-64-1.20260317.1.tgz 0ms (cache hit)
+625 http cache @cloudflare/kv-asset-handler@https://registry.npmjs.org/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.4.2.tgz 0ms (cache hit)
+626 http cache @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz 0ms (cache hit)
+627 http cache @babel/traverse@https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.0.tgz 0ms (cache hit)
+628 http cache @babel/template@https://registry.npmjs.org/@babel/template/-/template-7.28.6.tgz 0ms (cache hit)
+629 http cache @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz 0ms (cache hit)
+630 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz 0ms (cache hit)
+631 http cache @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.2.tgz 0ms (cache hit)
+632 http cache @babel/helper-validator-option@https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.27.1.tgz 0ms (cache hit)
+633 http cache @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz 0ms (cache hit)
+634 http cache @babel/helper-string-parser@https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz 0ms (cache hit)
+635 http cache @babel/helper-module-transforms@https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.6.tgz 0ms (cache hit)
+636 http cache @babel/helper-module-imports@https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.28.6.tgz 0ms (cache hit)
+637 http cache @babel/helper-globals@https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.28.0.tgz 0ms (cache hit)
+638 http cache @babel/helper-compilation-targets@https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.28.6.tgz 0ms (cache hit)
+639 http cache @babel/generator@https://registry.npmjs.org/@babel/generator/-/generator-7.29.1.tgz 0ms (cache hit)
+640 http cache @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.29.0.tgz 0ms (cache hit)
+641 http cache @aws/lambda-invoke-store@https://registry.npmjs.org/@aws/lambda-invoke-store/-/lambda-invoke-store-0.2.4.tgz 0ms (cache hit)
+642 http cache @babel/compat-data@https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.0.tgz 0ms (cache hit)
+643 http cache @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz 0ms (cache hit)
+644 http cache @aws-sdk/util-user-agent-node@https://registry.npmjs.org/@aws-sdk/util-user-agent-node/-/util-user-agent-node-3.973.12.tgz 0ms (cache hit)
+645 http cache @aws-sdk/xml-builder@https://registry.npmjs.org/@aws-sdk/xml-builder/-/xml-builder-3.972.16.tgz 0ms (cache hit)
+646 http cache @aws-sdk/util-user-agent-browser@https://registry.npmjs.org/@aws-sdk/util-user-agent-browser/-/util-user-agent-browser-3.972.8.tgz 0ms (cache hit)
+647 http cache @aws-sdk/util-locate-window@https://registry.npmjs.org/@aws-sdk/util-locate-window/-/util-locate-window-3.965.5.tgz 0ms (cache hit)
+648 http cache @aws-sdk/util-endpoints@https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.984.0.tgz 0ms (cache hit)
+649 http cache @aws-sdk/util-arn-parser@https://registry.npmjs.org/@aws-sdk/util-arn-parser/-/util-arn-parser-3.972.3.tgz 0ms (cache hit)
+650 http cache @aws-sdk/token-providers@https://registry.npmjs.org/@aws-sdk/token-providers/-/token-providers-3.1019.0.tgz 0ms (cache hit)
+651 http cache @aws-sdk/types@https://registry.npmjs.org/@aws-sdk/types/-/types-3.973.6.tgz 0ms (cache hit)
+652 http cache @aws-sdk/signature-v4-multi-region@https://registry.npmjs.org/@aws-sdk/signature-v4-multi-region/-/signature-v4-multi-region-3.984.0.tgz 0ms (cache hit)
+653 http cache @aws-sdk/region-config-resolver@https://registry.npmjs.org/@aws-sdk/region-config-resolver/-/region-config-resolver-3.972.10.tgz 0ms (cache hit)
+654 http cache @aws-sdk/nested-clients@https://registry.npmjs.org/@aws-sdk/nested-clients/-/nested-clients-3.996.16.tgz 0ms (cache hit)
+655 http cache @aws-sdk/middleware-user-agent@https://registry.npmjs.org/@aws-sdk/middleware-user-agent/-/middleware-user-agent-3.972.26.tgz 0ms (cache hit)
+656 http cache @aws-sdk/middleware-sdk-sqs@https://registry.npmjs.org/@aws-sdk/middleware-sdk-sqs/-/middleware-sdk-sqs-3.972.17.tgz 0ms (cache hit)
+657 http cache @aws-sdk/middleware-ssec@https://registry.npmjs.org/@aws-sdk/middleware-ssec/-/middleware-ssec-3.972.8.tgz 0ms (cache hit)
+658 http cache @aws-sdk/middleware-sdk-s3@https://registry.npmjs.org/@aws-sdk/middleware-sdk-s3/-/middleware-sdk-s3-3.972.26.tgz 0ms (cache hit)
+659 http cache @aws-sdk/middleware-logger@https://registry.npmjs.org/@aws-sdk/middleware-logger/-/middleware-logger-3.972.8.tgz 0ms (cache hit)
+660 http cache @aws-sdk/middleware-recursion-detection@https://registry.npmjs.org/@aws-sdk/middleware-recursion-detection/-/middleware-recursion-detection-3.972.9.tgz 0ms (cache hit)
+661 http cache @aws-sdk/middleware-location-constraint@https://registry.npmjs.org/@aws-sdk/middleware-location-constraint/-/middleware-location-constraint-3.972.8.tgz 0ms (cache hit)
+662 http cache @aws-sdk/middleware-host-header@https://registry.npmjs.org/@aws-sdk/middleware-host-header/-/middleware-host-header-3.972.8.tgz 0ms (cache hit)
+663 http cache @aws-sdk/middleware-flexible-checksums@https://registry.npmjs.org/@aws-sdk/middleware-flexible-checksums/-/middleware-flexible-checksums-3.974.5.tgz 0ms (cache hit)
+664 http cache @aws-sdk/middleware-expect-continue@https://registry.npmjs.org/@aws-sdk/middleware-expect-continue/-/middleware-expect-continue-3.972.8.tgz 0ms (cache hit)
+665 http cache @aws-sdk/middleware-endpoint-discovery@https://registry.npmjs.org/@aws-sdk/middleware-endpoint-discovery/-/middleware-endpoint-discovery-3.972.9.tgz 0ms (cache hit)
+666 http cache @aws-sdk/middleware-bucket-endpoint@https://registry.npmjs.org/@aws-sdk/middleware-bucket-endpoint/-/middleware-bucket-endpoint-3.972.8.tgz 0ms (cache hit)
+667 http cache @aws-sdk/endpoint-cache@https://registry.npmjs.org/@aws-sdk/endpoint-cache/-/endpoint-cache-3.972.5.tgz 0ms (cache hit)
+668 http cache @aws-sdk/dynamodb-codec@https://registry.npmjs.org/@aws-sdk/dynamodb-codec/-/dynamodb-codec-3.972.26.tgz 0ms (cache hit)
+669 http cache @aws-sdk/credential-provider-web-identity@https://registry.npmjs.org/@aws-sdk/credential-provider-web-identity/-/credential-provider-web-identity-3.972.26.tgz 0ms (cache hit)
+670 http cache @aws-sdk/credential-provider-sso@https://registry.npmjs.org/@aws-sdk/credential-provider-sso/-/credential-provider-sso-3.972.26.tgz 0ms (cache hit)
+671 http cache @aws-sdk/credential-provider-node@https://registry.npmjs.org/@aws-sdk/credential-provider-node/-/credential-provider-node-3.972.27.tgz 0ms (cache hit)
+672 http cache @aws-sdk/credential-provider-process@https://registry.npmjs.org/@aws-sdk/credential-provider-process/-/credential-provider-process-3.972.23.tgz 0ms (cache hit)
+673 http cache @aws-sdk/credential-provider-login@https://registry.npmjs.org/@aws-sdk/credential-provider-login/-/credential-provider-login-3.972.26.tgz 0ms (cache hit)
+674 http cache @aws-sdk/credential-provider-ini@https://registry.npmjs.org/@aws-sdk/credential-provider-ini/-/credential-provider-ini-3.972.26.tgz 0ms (cache hit)
+675 http cache @aws-sdk/credential-provider-http@https://registry.npmjs.org/@aws-sdk/credential-provider-http/-/credential-provider-http-3.972.25.tgz 0ms (cache hit)
+676 http cache @aws-sdk/crc64-nvme@https://registry.npmjs.org/@aws-sdk/crc64-nvme/-/crc64-nvme-3.972.5.tgz 0ms (cache hit)
+677 http cache @aws-sdk/credential-provider-env@https://registry.npmjs.org/@aws-sdk/credential-provider-env/-/credential-provider-env-3.972.23.tgz 0ms (cache hit)
+678 http cache @aws-sdk/core@https://registry.npmjs.org/@aws-sdk/core/-/core-3.973.25.tgz 0ms (cache hit)
+679 http cache @aws-sdk/client-sqs@https://registry.npmjs.org/@aws-sdk/client-sqs/-/client-sqs-3.984.0.tgz 0ms (cache hit)
+680 http cache @aws-sdk/client-dynamodb@https://registry.npmjs.org/@aws-sdk/client-dynamodb/-/client-dynamodb-3.984.0.tgz 0ms (cache hit)
+681 http cache @aws-sdk/client-lambda@https://registry.npmjs.org/@aws-sdk/client-lambda/-/client-lambda-3.984.0.tgz 0ms (cache hit)
+682 http cache @aws-sdk/client-s3@https://registry.npmjs.org/@aws-sdk/client-s3/-/client-s3-3.984.0.tgz 0ms (cache hit)
+683 http cache @aws-crypto/util@https://registry.npmjs.org/@aws-crypto/util/-/util-5.2.0.tgz 0ms (cache hit)
+684 http cache @aws-sdk/client-cloudfront@https://registry.npmjs.org/@aws-sdk/client-cloudfront/-/client-cloudfront-3.984.0.tgz 0ms (cache hit)
+685 http cache @aws-crypto/supports-web-crypto@https://registry.npmjs.org/@aws-crypto/supports-web-crypto/-/supports-web-crypto-5.2.0.tgz 0ms (cache hit)
+686 http cache @aws-crypto/sha256-js@https://registry.npmjs.org/@aws-crypto/sha256-js/-/sha256-js-5.2.0.tgz 0ms (cache hit)
+687 http cache @aws-crypto/sha256-browser@https://registry.npmjs.org/@aws-crypto/sha256-browser/-/sha256-browser-5.2.0.tgz 0ms (cache hit)
+688 http cache @aws-crypto/sha1-browser@https://registry.npmjs.org/@aws-crypto/sha1-browser/-/sha1-browser-5.2.0.tgz 0ms (cache hit)
+689 http cache @aws-crypto/crc32c@https://registry.npmjs.org/@aws-crypto/crc32c/-/crc32c-5.2.0.tgz 0ms (cache hit)
+690 http cache @ast-grep/napi-win32-x64-msvc@https://registry.npmjs.org/@ast-grep/napi-win32-x64-msvc/-/napi-win32-x64-msvc-0.40.5.tgz 0ms (cache hit)
+691 http cache @aws-crypto/crc32@https://registry.npmjs.org/@aws-crypto/crc32/-/crc32-5.2.0.tgz 0ms (cache hit)
+692 http cache @alloc/quick-lru@https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz 0ms (cache hit)
+693 http cache @asamuzakjp/nwsapi@https://registry.npmjs.org/@asamuzakjp/nwsapi/-/nwsapi-2.3.9.tgz 0ms (cache hit)
+694 http cache @ast-grep/napi@https://registry.npmjs.org/@ast-grep/napi/-/napi-0.40.5.tgz 0ms (cache hit)
+695 http cache @asamuzakjp/css-color@https://registry.npmjs.org/@asamuzakjp/css-color/-/css-color-5.0.1.tgz 0ms (cache hit)
+696 http cache @asamuzakjp/dom-selector@https://registry.npmjs.org/@asamuzakjp/dom-selector/-/dom-selector-7.0.4.tgz 0ms (cache hit)
+697 http cache @adobe/css-tools@https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.4.4.tgz 0ms (cache hit)
+698 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.27.3.tgz 0ms (cache hit)
+699 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.3.tgz 0ms (cache hit)
+700 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+701 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz 0ms (cache hit)
+702 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz 0ms (cache hit)
+703 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 1ms (cache hit)
+704 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz 0ms (cache hit)
+705 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+706 http cache commander@https://registry.npmjs.org/commander/-/commander-2.20.3.tgz 0ms (cache hit)
+707 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+708 http cache json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 0ms (cache hit)
+709 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+710 http cache path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.4.0.tgz 0ms (cache hit)
+711 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz 0ms (cache hit)
+712 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz 0ms (cache hit)
+713 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz 0ms (cache hit)
+714 http cache react-is@https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz 0ms (cache hit)
+715 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 0ms (cache hit)
+716 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.7.tgz 0ms (cache hit)
+717 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-5.2.0.tgz 0ms (cache hit)
+718 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 0ms (cache hit)
+719 http cache undici@https://registry.npmjs.org/undici/-/undici-7.24.4.tgz 0ms (cache hit)
+720 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+721 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.7.tgz 0ms (cache hit)
+722 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 0ms (cache hit)
+723 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 0ms (cache hit)
+724 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+725 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz 0ms (cache hit)
+726 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.5.tgz 0ms (cache hit)
+727 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz 0ms (cache hit)
+728 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+729 http cache signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz 1ms (cache hit)
+730 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+731 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz 0ms (cache hit)
+732 http cache aria-query@https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz 0ms (cache hit)
+733 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz 0ms (cache hit)
+734 http cache debug@https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 0ms (cache hit)
+735 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz 0ms (cache hit)
+736 http cache debug@https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 0ms (cache hit)
+737 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 0ms (cache hit)
+738 http cache debug@https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 0ms (cache hit)
+739 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz 0ms (cache hit)
+740 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-18.19.130.tgz 0ms (cache hit)
+741 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz 0ms (cache hit)
+742 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.4.tgz 0ms (cache hit)
+743 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz 0ms (cache hit)
+744 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-10.2.2.tgz 0ms (cache hit)
+745 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+746 http cache dom-accessibility-api@https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.6.3.tgz 0ms (cache hit)
+747 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz 0ms (cache hit)
+748 http cache path-scurry@https://registry.npmjs.org/path-scurry/-/path-scurry-1.11.1.tgz 0ms (cache hit)
+749 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.5.tgz 0ms (cache hit)
+750 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-4.2.8.tgz 0ms (cache hit)
+751 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz 0ms (cache hit)
+752 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.4.tgz 0ms (cache hit)
+753 http cache globals@https://registry.npmjs.org/globals/-/globals-14.0.0.tgz 0ms (cache hit)
+754 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.4.tgz 0ms (cache hit)
+755 http cache minipass@https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz 0ms (cache hit)
+756 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-8.0.7.tgz 0ms (cache hit)
+757 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz 0ms (cache hit)
+758 http cache which@https://registry.npmjs.org/which/-/which-4.0.0.tgz 0ms (cache hit)
+759 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-10.4.3.tgz 0ms (cache hit)
+760 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz 0ms (cache hit)
+761 http cache glob@https://registry.npmjs.org/glob/-/glob-9.3.5.tgz 0ms (cache hit)
+762 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.3.tgz 0ms (cache hit)
+763 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+764 http cache @aws-sdk/util-endpoints@https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.996.5.tgz 0ms (cache hit)
+765 http cache @smithy/util-utf8@https://registry.npmjs.org/@smithy/util-utf8/-/util-utf8-2.3.0.tgz 0ms (cache hit)
+766 http cache @smithy/util-utf8@https://registry.npmjs.org/@smithy/util-utf8/-/util-utf8-2.3.0.tgz 0ms (cache hit)
+767 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+768 http cache isexe@https://registry.npmjs.org/isexe/-/isexe-3.1.5.tgz 0ms (cache hit)
+769 http cache @aws-sdk/util-endpoints@https://registry.npmjs.org/@aws-sdk/util-endpoints/-/util-endpoints-3.996.5.tgz 0ms (cache hit)
+770 http cache @smithy/is-array-buffer@https://registry.npmjs.org/@smithy/is-array-buffer/-/is-array-buffer-2.2.0.tgz 0ms (cache hit)
+771 http cache @smithy/util-buffer-from@https://registry.npmjs.org/@smithy/util-buffer-from/-/util-buffer-from-2.2.0.tgz 0ms (cache hit)
+772 http cache @smithy/util-buffer-from@https://registry.npmjs.org/@smithy/util-buffer-from/-/util-buffer-from-2.2.0.tgz 0ms (cache hit)
+773 http cache @smithy/is-array-buffer@https://registry.npmjs.org/@smithy/is-array-buffer/-/is-array-buffer-2.2.0.tgz 0ms (cache hit)
+774 http cache @smithy/util-buffer-from@https://registry.npmjs.org/@smithy/util-buffer-from/-/util-buffer-from-2.2.0.tgz 0ms (cache hit)
+775 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.7.tgz 0ms (cache hit)
+776 http cache @smithy/util-utf8@https://registry.npmjs.org/@smithy/util-utf8/-/util-utf8-2.3.0.tgz 0ms (cache hit)
+777 http cache @smithy/is-array-buffer@https://registry.npmjs.org/@smithy/is-array-buffer/-/is-array-buffer-2.2.0.tgz 0ms (cache hit)
+778 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.2.7.tgz 0ms (cache hit)
+779 warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+780 warn deprecated glob@9.3.5: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+781 warn tar TAR_ENTRY_ERROR EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\utils\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\utils\dist\index.js.DELETE.ce840248489397e2f16ff2455f099dc7'
+782 silly tar TAR_ENTRY_ERROR EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\utils\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\utils\dist\index.js.DELETE.ce840248489397e2f16ff2455f099dc7' [Error: EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\utils\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\utils\dist\index.js.DELETE.ce840248489397e2f16ff2455f099dc7'] {
+782 silly tar   errno: -4048,
+782 silly tar   code: 'EPERM',
+782 silly tar   syscall: 'rename',
+782 silly tar   path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\@node-minify\\utils\\dist\\index.js',
+782 silly tar   dest: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\@node-minify\\utils\\dist\\index.js.DELETE.ce840248489397e2f16ff2455f099dc7',
+782 silly tar   entry: ReadEntry {
+782 silly tar     _events: [Object: null prototype] { end: [Array] },
+782 silly tar     _eventsCount: 1,
+782 silly tar     _maxListeners: undefined,
+782 silly tar     writable: false,
+782 silly tar     readable: true,
+782 silly tar     extended: undefined,
+782 silly tar     globalExtended: undefined,
+782 silly tar     header: Header {
+782 silly tar       cksumValid: true,
+782 silly tar       needPax: false,
+782 silly tar       nullBlock: false,
+782 silly tar       block: undefined,
+782 silly tar       path: 'package/dist/index.js',
+782 silly tar       mode: 420,
+782 silly tar       uid: undefined,
+782 silly tar       gid: undefined,
+782 silly tar       size: 5509,
+782 silly tar       cksum: 5052,
+782 silly tar       linkpath: '',
+782 silly tar       uname: '',
+782 silly tar       gname: '',
+782 silly tar       devmaj: 0,
+782 silly tar       devmin: 0,
+782 silly tar       atime: undefined,
+782 silly tar       ctime: undefined,
+782 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+782 silly tar       charset: undefined,
+782 silly tar       comment: undefined
+782 silly tar     },
+782 silly tar     startBlockSize: 5632,
+782 silly tar     blockRemain: 0,
+782 silly tar     remain: 0,
+782 silly tar     type: 'File',
+782 silly tar     meta: false,
+782 silly tar     ignore: false,
+782 silly tar     path: 'dist/index.js',
+782 silly tar     mode: 438,
+782 silly tar     uid: undefined,
+782 silly tar     gid: undefined,
+782 silly tar     uname: '',
+782 silly tar     gname: '',
+782 silly tar     size: 5509,
+782 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+782 silly tar     atime: undefined,
+782 silly tar     ctime: undefined,
+782 silly tar     linkpath: undefined,
+782 silly tar     dev: undefined,
+782 silly tar     ino: undefined,
+782 silly tar     nlink: undefined,
+782 silly tar     invalid: false,
+782 silly tar     absolute: 'D:/CODEX/ScreenWeb/.ci-verify-64b37ec58c0a4ccb8f3875f599bec055/node_modules/@node-minify/utils/dist/index.js',
+782 silly tar     unsupported: false,
+782 silly tar     Symbol(shapeMode): false,
+782 silly tar     Symbol(kCapture): false,
+782 silly tar     Symbol(flowing): false,
+782 silly tar     Symbol(paused): true,
+782 silly tar     Symbol(pipes): [],
+782 silly tar     Symbol(buffer): [
+782 silly tar       <Buffer 22 75 73 65 20 73 74 72 69 63 74 22 3b 0a 76 61 72 20 5f 5f 63 72 65 61 74 65 20 3d 20 4f 62 6a 65 63 74 2e 63 72 65 61 74 65 3b 0a 76 61 72 20 5f 5f ... 5459 more bytes>
+782 silly tar     ],
+782 silly tar     Symbol(objectMode): false,
+782 silly tar     Symbol(encoding): null,
+782 silly tar     Symbol(async): false,
+782 silly tar     Symbol(decoder): null,
+782 silly tar     Symbol(EOF): true,
+782 silly tar     Symbol(emittedEnd): false,
+782 silly tar     Symbol(emittingEnd): false,
+782 silly tar     Symbol(closed): false,
+782 silly tar     Symbol(emittedError): null,
+782 silly tar     Symbol(bufferLength): 5509,
+782 silly tar     Symbol(destroyed): false,
+782 silly tar     Symbol(signal): undefined,
+782 silly tar     Symbol(aborted): false,
+782 silly tar     Symbol(dataListeners): 0,
+782 silly tar     Symbol(discarded): false
+782 silly tar   },
+782 silly tar   cwd: 'D:/CODEX/ScreenWeb/.ci-verify-64b37ec58c0a4ccb8f3875f599bec055/node_modules/@node-minify/utils',
+782 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+782 silly tar }
+783 warn tar TAR_ENTRY_ERROR EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\core\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\core\dist\index.js.DELETE.046e6c8161be1eb2bf83710554c126b2'
+784 silly tar TAR_ENTRY_ERROR EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\core\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\core\dist\index.js.DELETE.046e6c8161be1eb2bf83710554c126b2' [Error: EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\core\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\core\dist\index.js.DELETE.046e6c8161be1eb2bf83710554c126b2'] {
+784 silly tar   errno: -4048,
+784 silly tar   code: 'EPERM',
+784 silly tar   syscall: 'rename',
+784 silly tar   path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\@node-minify\\core\\dist\\index.js',
+784 silly tar   dest: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\@node-minify\\core\\dist\\index.js.DELETE.046e6c8161be1eb2bf83710554c126b2',
+784 silly tar   entry: ReadEntry {
+784 silly tar     _events: [Object: null prototype] { end: [Array] },
+784 silly tar     _eventsCount: 1,
+784 silly tar     _maxListeners: undefined,
+784 silly tar     writable: false,
+784 silly tar     readable: true,
+784 silly tar     extended: undefined,
+784 silly tar     globalExtended: undefined,
+784 silly tar     header: Header {
+784 silly tar       cksumValid: true,
+784 silly tar       needPax: false,
+784 silly tar       nullBlock: false,
+784 silly tar       block: undefined,
+784 silly tar       path: 'package/dist/index.js',
+784 silly tar       mode: 420,
+784 silly tar       uid: undefined,
+784 silly tar       gid: undefined,
+784 silly tar       size: 7626,
+784 silly tar       cksum: 5055,
+784 silly tar       linkpath: '',
+784 silly tar       uname: '',
+784 silly tar       gname: '',
+784 silly tar       devmaj: 0,
+784 silly tar       devmin: 0,
+784 silly tar       atime: undefined,
+784 silly tar       ctime: undefined,
+784 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+784 silly tar       charset: undefined,
+784 silly tar       comment: undefined
+784 silly tar     },
+784 silly tar     startBlockSize: 7680,
+784 silly tar     blockRemain: 0,
+784 silly tar     remain: 0,
+784 silly tar     type: 'File',
+784 silly tar     meta: false,
+784 silly tar     ignore: false,
+784 silly tar     path: 'dist/index.js',
+784 silly tar     mode: 438,
+784 silly tar     uid: undefined,
+784 silly tar     gid: undefined,
+784 silly tar     uname: '',
+784 silly tar     gname: '',
+784 silly tar     size: 7626,
+784 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+784 silly tar     atime: undefined,
+784 silly tar     ctime: undefined,
+784 silly tar     linkpath: undefined,
+784 silly tar     dev: undefined,
+784 silly tar     ino: undefined,
+784 silly tar     nlink: undefined,
+784 silly tar     invalid: false,
+784 silly tar     absolute: 'D:/CODEX/ScreenWeb/.ci-verify-64b37ec58c0a4ccb8f3875f599bec055/node_modules/@node-minify/core/dist/index.js',
+784 silly tar     unsupported: false,
+784 silly tar     Symbol(shapeMode): false,
+784 silly tar     Symbol(kCapture): false,
+784 silly tar     Symbol(flowing): false,
+784 silly tar     Symbol(paused): true,
+784 silly tar     Symbol(pipes): [],
+784 silly tar     Symbol(buffer): [
+784 silly tar       <Buffer 22 75 73 65 20 73 74 72 69 63 74 22 3b 0a 76 61 72 20 5f 5f 63 72 65 61 74 65 20 3d 20 4f 62 6a 65 63 74 2e 63 72 65 61 74 65 3b 0a 76 61 72 20 5f 5f ... 5582 more bytes>,
+784 silly tar       <Buffer 75 74 2e 66 6f 72 45 61 63 68 28 28 69 6e 70 75 74 2c 20 69 6e 64 65 78 29 20 3d 3e 20 7b 0a 20 20 20 20 63 6f 6e 73 74 20 63 6f 6e 74 65 6e 74 20 3d ... 1944 more bytes>
+784 silly tar     ],
+784 silly tar     Symbol(objectMode): false,
+784 silly tar     Symbol(encoding): null,
+784 silly tar     Symbol(async): false,
+784 silly tar     Symbol(decoder): null,
+784 silly tar     Symbol(EOF): true,
+784 silly tar     Symbol(emittedEnd): false,
+784 silly tar     Symbol(emittingEnd): false,
+784 silly tar     Symbol(closed): false,
+784 silly tar     Symbol(emittedError): null,
+784 silly tar     Symbol(bufferLength): 7626,
+784 silly tar     Symbol(destroyed): false,
+784 silly tar     Symbol(signal): undefined,
+784 silly tar     Symbol(aborted): false,
+784 silly tar     Symbol(dataListeners): 0,
+784 silly tar     Symbol(discarded): false
+784 silly tar   },
+784 silly tar   cwd: 'D:/CODEX/ScreenWeb/.ci-verify-64b37ec58c0a4ccb8f3875f599bec055/node_modules/@node-minify/core',
+784 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+784 silly tar }
+785 warn tar TAR_ENTRY_ERROR EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\terser\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\terser\dist\index.js.DELETE.29db4683ce79d1264742a95ca6d9ec3d'
+786 silly tar TAR_ENTRY_ERROR EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\terser\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\terser\dist\index.js.DELETE.29db4683ce79d1264742a95ca6d9ec3d' [Error: EPERM: operation not permitted, rename 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\terser\dist\index.js' -> 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\@node-minify\terser\dist\index.js.DELETE.29db4683ce79d1264742a95ca6d9ec3d'] {
+786 silly tar   errno: -4048,
+786 silly tar   code: 'EPERM',
+786 silly tar   syscall: 'rename',
+786 silly tar   path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\@node-minify\\terser\\dist\\index.js',
+786 silly tar   dest: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\@node-minify\\terser\\dist\\index.js.DELETE.29db4683ce79d1264742a95ca6d9ec3d',
+786 silly tar   entry: ReadEntry {
+786 silly tar     _events: [Object: null prototype] { end: [Array] },
+786 silly tar     _eventsCount: 1,
+786 silly tar     _maxListeners: undefined,
+786 silly tar     writable: false,
+786 silly tar     readable: true,
+786 silly tar     extended: undefined,
+786 silly tar     globalExtended: undefined,
+786 silly tar     header: Header {
+786 silly tar       cksumValid: true,
+786 silly tar       needPax: false,
+786 silly tar       nullBlock: false,
+786 silly tar       block: undefined,
+786 silly tar       path: 'package/dist/index.js',
+786 silly tar       mode: 420,
+786 silly tar       uid: undefined,
+786 silly tar       gid: undefined,
+786 silly tar       size: 1030,
+786 silly tar       cksum: 5046,
+786 silly tar       linkpath: '',
+786 silly tar       uname: '',
+786 silly tar       gname: '',
+786 silly tar       devmaj: 0,
+786 silly tar       devmin: 0,
+786 silly tar       atime: undefined,
+786 silly tar       ctime: undefined,
+786 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+786 silly tar       charset: undefined,
+786 silly tar       comment: undefined
+786 silly tar     },
+786 silly tar     startBlockSize: 1536,
+786 silly tar     blockRemain: 0,
+786 silly tar     remain: 0,
+786 silly tar     type: 'File',
+786 silly tar     meta: false,
+786 silly tar     ignore: false,
+786 silly tar     path: 'dist/index.js',
+786 silly tar     mode: 438,
+786 silly tar     uid: undefined,
+786 silly tar     gid: undefined,
+786 silly tar     uname: '',
+786 silly tar     gname: '',
+786 silly tar     size: 1030,
+786 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+786 silly tar     atime: undefined,
+786 silly tar     ctime: undefined,
+786 silly tar     linkpath: undefined,
+786 silly tar     dev: undefined,
+786 silly tar     ino: undefined,
+786 silly tar     nlink: undefined,
+786 silly tar     invalid: false,
+786 silly tar     absolute: 'D:/CODEX/ScreenWeb/.ci-verify-64b37ec58c0a4ccb8f3875f599bec055/node_modules/@node-minify/terser/dist/index.js',
+786 silly tar     unsupported: false,
+786 silly tar     Symbol(shapeMode): false,
+786 silly tar     Symbol(kCapture): false,
+786 silly tar     Symbol(flowing): false,
+786 silly tar     Symbol(paused): true,
+786 silly tar     Symbol(pipes): [],
+786 silly tar     Symbol(buffer): [
+786 silly tar       <Buffer 22 75 73 65 20 73 74 72 69 63 74 22 3b 0a 0a 2f 2f 20 73 72 63 2f 69 6e 64 65 78 2e 74 73 0a 76 61 72 20 69 6d 70 6f 72 74 5f 74 65 72 73 65 72 20 3d ... 980 more bytes>
+786 silly tar     ],
+786 silly tar     Symbol(objectMode): false,
+786 silly tar     Symbol(encoding): null,
+786 silly tar     Symbol(async): false,
+786 silly tar     Symbol(decoder): null,
+786 silly tar     Symbol(EOF): true,
+786 silly tar     Symbol(emittedEnd): false,
+786 silly tar     Symbol(emittingEnd): false,
+786 silly tar     Symbol(closed): false,
+786 silly tar     Symbol(emittedError): null,
+786 silly tar     Symbol(bufferLength): 1030,
+786 silly tar     Symbol(destroyed): false,
+786 silly tar     Symbol(signal): undefined,
+786 silly tar     Symbol(aborted): false,
+786 silly tar     Symbol(dataListeners): 0,
+786 silly tar     Symbol(discarded): false
+786 silly tar   },
+786 silly tar   cwd: 'D:/CODEX/ScreenWeb/.ci-verify-64b37ec58c0a4ccb8f3875f599bec055/node_modules/@node-minify/terser',
+786 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+786 silly tar }
+787 info run sharp@0.34.5 install node_modules/sharp node install/check.js || npm run build
+788 info run sharp@0.34.5 install { code: 'EPERM', signal: undefined }
+789 warn cleanup Failed to remove some directories [
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\acorn-jsx',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\acorn-jsx\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\acorn-jsx\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\acorn',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\acorn\CHANGELOG.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\acorn\\CHANGELOG.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\accepts',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\accepts\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\accepts\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ajv',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\ajv\.tonic_example.js'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ajv\\.tonic_example.js'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ansi-colors',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\ansi-colors\README.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ansi-colors\\README.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\agentkeepalive',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\agentkeepalive\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\agentkeepalive\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ansi-regex',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\ansi-regex\index.d.ts'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ansi-regex\\index.d.ts'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\argparse',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\argparse\CHANGELOG.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\argparse\\CHANGELOG.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array-includes',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\array-includes\.editorconfig'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array-includes\\.editorconfig'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\aria-query',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\aria-query\README.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\aria-query\\README.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ansi-styles',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\ansi-styles\index.js'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ansi-styles\\index.js'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array-buffer-byte-length',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\array-buffer-byte-length\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array-buffer-byte-length\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array-timsort',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\array-timsort\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array-timsort\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.findlastindex',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\array.prototype.findlastindex\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.findlastindex\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.findlast',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\array.prototype.findlast\.editorconfig'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.findlast\\.editorconfig'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.flat',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\array.prototype.flat\.editorconfig'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.flat\\.editorconfig'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.tosorted',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\array.prototype.tosorted\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.tosorted\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.flatmap',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\array.prototype.flatmap\.editorconfig'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\array.prototype.flatmap\\.editorconfig'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\arraybuffer.prototype.slice',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\arraybuffer.prototype.slice\.editorconfig'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\arraybuffer.prototype.slice\\.editorconfig'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\assertion-error',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\assertion-error\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\assertion-error\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\available-typed-arrays',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\available-typed-arrays\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\available-typed-arrays\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ast-types-flow',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\ast-types-flow\package.json'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ast-types-flow\\package.json'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\async-function',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\async-function\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\async-function\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\asynckit',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\asynckit\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\asynckit\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\axobject-query',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\axobject-query\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\axobject-query\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\balanced-match',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\balanced-match\LICENSE.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\balanced-match\\LICENSE.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\axe-core',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\axe-core\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\axe-core\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\bidi-js',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\bidi-js\LICENSE.txt'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\bidi-js\\LICENSE.txt'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\aws4fetch',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\aws4fetch\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\aws4fetch\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\blake3-wasm',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\blake3-wasm\browser-async.js'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\blake3-wasm\\browser-async.js'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\baseline-browser-mapping',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\baseline-browser-mapping\README.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\baseline-browser-mapping\\README.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\body-parser',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\body-parser\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\body-parser\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\bowser',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\bowser\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\bowser\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\brace-expansion',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\brace-expansion\README.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\brace-expansion\\README.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\browserslist',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\browserslist\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\browserslist\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\braces',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\braces\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\braces\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\bytes',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\bytes\Readme.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\bytes\\Readme.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\call-bind-apply-helpers',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\call-bind-apply-helpers\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\call-bind-apply-helpers\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\call-bound',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\call-bound\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\call-bound\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\buffer-from',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\buffer-from\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\buffer-from\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\call-bind',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\call-bind\.eslintignore'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\call-bind\\.eslintignore'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\callsites',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\callsites\index.d.ts'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\callsites\\index.d.ts'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\caniuse-lite',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\caniuse-lite\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\caniuse-lite\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\client-only',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\client-only\index.js'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\client-only\\index.js'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\chai',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\chai\README.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\chai\\README.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\chalk',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\chalk\index.d.ts'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\chalk\\index.d.ts'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\color-name',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\color-name\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\color-name\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\clsx',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\clsx\clsx.d.mts'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\clsx\\clsx.d.mts'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\combined-stream',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\combined-stream\License'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\combined-stream\\License'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\color-convert',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\color-convert\CHANGELOG.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\color-convert\\CHANGELOG.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\commander',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\commander\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\commander\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\concat-map',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\concat-map\.travis.yml'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\concat-map\\.travis.yml'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\comment-json',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\comment-json\README.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\comment-json\\README.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\content-disposition',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\content-disposition\HISTORY.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\content-disposition\\HISTORY.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\content-type',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\content-type\HISTORY.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\content-type\\HISTORY.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\cookie-signature',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\cookie-signature\History.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\cookie-signature\\History.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\convert-source-map',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\convert-source-map\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\convert-source-map\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\cross-spawn',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\cross-spawn\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\cross-spawn\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\cookie',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\cookie\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\cookie\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\css-tree',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\css-tree\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\css-tree\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\css.escape',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\css.escape\LICENSE-MIT.txt'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\css.escape\\LICENSE-MIT.txt'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\csstype',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\csstype\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\csstype\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\data-urls',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\data-urls\LICENSE.txt'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\data-urls\\LICENSE.txt'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\damerau-levenshtein',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\damerau-levenshtein\CHANGELOG.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\damerau-levenshtein\\CHANGELOG.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\data-view-byte-length',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\data-view-byte-length\CHANGELOG.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\data-view-byte-length\\CHANGELOG.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\decimal.js',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\decimal.js\LICENCE.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\decimal.js\\LICENCE.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\data-view-buffer',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\data-view-buffer\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\data-view-buffer\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\deep-is',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\deep-is\.travis.yml'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\deep-is\\.travis.yml'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\data-view-byte-offset',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\data-view-byte-offset\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\data-view-byte-offset\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\delayed-stream',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\delayed-stream\.npmignore'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\delayed-stream\\.npmignore'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\debug',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\debug\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\debug\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\depd',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\depd\History.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\depd\\History.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\define-data-property',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\define-data-property\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\define-data-property\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\dequal',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\dequal\index.d.ts'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\dequal\\index.d.ts'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\detect-libc',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\detect-libc\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\detect-libc\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\duplexer',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\duplexer\LICENCE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\duplexer\\LICENCE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\define-properties',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\define-properties\.editorconfig'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\define-properties\\.editorconfig'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\dom-accessibility-api',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\dom-accessibility-api\.browserslistrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\dom-accessibility-api\\.browserslistrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\dotenv',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\dotenv\CHANGELOG.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\dotenv\\CHANGELOG.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\eciesjs',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\eciesjs\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\eciesjs\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\dunder-proto',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\dunder-proto\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\dunder-proto\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\electron-to-chromium',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\electron-to-chromium\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\electron-to-chromium\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\doctrine',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\doctrine\CHANGELOG.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\doctrine\\CHANGELOG.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\encodeurl',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\encodeurl\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\encodeurl\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\emoji-regex',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\emoji-regex\LICENSE-MIT.txt'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\emoji-regex\\LICENSE-MIT.txt'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\enhanced-resolve',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\enhanced-resolve\README.md'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\enhanced-resolve\\README.md'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\enquirer',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\enquirer\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\enquirer\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\entities',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\entities\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\entities\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-define-property',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-define-property\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-define-property\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ee-first',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\ee-first\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\ee-first\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\error-stack-parser-es',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\error-stack-parser-es\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\error-stack-parser-es\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-abstract',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-abstract\.nycrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-abstract\\.nycrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-errors',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-errors\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-errors\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-iterator-helpers',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-iterator-helpers\.nycrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-iterator-helpers\\.nycrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-object-atoms',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-object-atoms\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-object-atoms\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-shim-unscopables',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-shim-unscopables\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-shim-unscopables\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-set-tostringtag',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-set-tostringtag\.eslintrc'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-set-tostringtag\\.eslintrc'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-module-lexer',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-module-lexer\LICENSE'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-module-lexer\\LICENSE'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\escalade',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\escalade\index.d.mts'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\escalade\\index.d.mts'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   [
+789 warn cleanup     '\\\\?\\D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-to-primitive',
+789 warn cleanup     [Error: EPERM: operation not permitted, unlink 'D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\node_modules\es-to-primitive\.editorconfig'] {
+789 warn cleanup       errno: -4048,
+789 warn cleanup       code: 'EPERM',
+789 warn cleanup       syscall: 'unlink',
+789 warn cleanup       path: 'D:\\CODEX\\ScreenWeb\\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055\\node_modules\\es-to-primitive\\.editorconfig'
+789 warn cleanup     }
+789 warn cleanup   ],
+789 warn cleanup   ... 606 more items
+789 warn cleanup ]
+790 verbose stack Error: spawn EPERM
+790 verbose stack     at ChildProcess.spawn (node:internal/child_process:420:11)
+790 verbose stack     at spawn (node:child_process:796:9)
+790 verbose stack     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:39:16)
+790 verbose stack     at spawnWithShell (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+790 verbose stack     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+790 verbose stack     at runScriptPkg (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:79:13)
+790 verbose stack     at runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+790 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:332:17
+790 verbose stack     at run (C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+790 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9
+791 error code EPERM
+792 error syscall spawn
+793 error errno -4048
+794 error Error: spawn EPERM
+794 error     at ChildProcess.spawn (node:internal/child_process:420:11)
+794 error     at spawn (node:child_process:796:9)
+794 error     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:39:16)
+794 error     at spawnWithShell (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+794 error     at promiseSpawn (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+794 error     at runScriptPkg (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:79:13)
+794 error     at runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+794 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:332:17
+794 error     at run (C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+794 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9 {
+794 error   errno: -4048,
+794 error   code: 'EPERM',
+794 error   syscall: 'spawn'
+794 error }
+795 error
+795 error The operation was rejected by your operating system.
+795 error It's possible that the file was already in use (by a text editor or antivirus),
+795 error or that you lack permissions to access it.
+795 error
+795 error If you believe this might be a permissions issue, please double-check the
+795 error permissions of the file and its containing directories, or try running
+795 error the command again as root/Administrator.
+796 silly unfinished npm timer reify 1774726939568
+797 silly unfinished npm timer reify:build 1774727047158
+798 silly unfinished npm timer build 1774727047159
+799 silly unfinished npm timer build:deps 1774727047159
+800 silly unfinished npm timer build:run:install 1774727047250
+801 silly unfinished npm timer build:run:install:node_modules/sharp 1774727047251
+802 verbose cwd D:\CODEX\ScreenWeb\.ci-verify-64b37ec58c0a4ccb8f3875f599bec055
+803 verbose os Windows_NT 10.0.26200
+804 verbose node v25.2.1
+805 verbose npm  v11.6.2
+806 verbose exit -4048
+807 verbose code -4048
+808 error A complete log of this run can be found in: D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_42_18_578Z-debug-0.log

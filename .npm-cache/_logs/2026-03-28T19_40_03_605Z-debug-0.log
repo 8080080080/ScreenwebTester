@@ -5,13 +5,13 @@
 4 silly config load:file:D:\CODEX\ScreenWeb\.npmrc
 5 silly config load:file:C:\Users\plp\.npmrc
 6 silly config load:file:C:\Users\plp\AppData\Roaming\npm\etc\npmrc
-7 verbose title npm view @emnapi/runtime@1.9.1 dependencies
-8 verbose argv "view" "@emnapi/runtime@1.9.1" "dependencies" "--json" "--cache" ".npm-cache"
-9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T18_06_59_669Z-
-10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T18_06_59_669Z-debug-0.log
+7 verbose title npm view @img/sharp-wasm32@0.34.5 dependencies
+8 verbose argv "view" "@img/sharp-wasm32@0.34.5" "dependencies" "--json" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_40_03_605Z-
+10 verbose logfile D:\CODEX\ScreenWeb\.npm-cache\_logs\2026-03-28T19_40_03_605Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
-13 http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 84ms (cache revalidated)
+13 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-wasm32 382ms (cache miss)
 14 verbose cwd D:\CODEX\ScreenWeb
 15 verbose os Windows_NT 10.0.26200
 16 verbose node v25.2.1
